@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { androidHref, site } from "@/lib/site";
 import { PhoneVerdict } from "@/components/PhoneVerdict";
 
@@ -43,7 +44,7 @@ const verdicts = [
 export default function HomePage() {
   return (
     <main id="main">
-      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-10 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:pb-36 lg:pt-16">
+      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-10 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:pb-40 lg:pt-16">
         <div>
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone">
             Food · beauty · personal care
@@ -70,20 +71,21 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="relative pb-4 lg:pb-8">
+        <div className="relative mx-auto max-w-md lg:max-w-none">
           <figure className="overflow-hidden rounded-[1.6rem] border border-line bg-card shadow-still">
-            <img
+            <Image
               src="/images/label-still.jpg"
               alt="A printed ingredient label on grocery paper"
               width={1280}
               height={853}
               className="aspect-[4/3] w-full object-cover"
+              priority
             />
             <figcaption className="border-t border-line px-5 py-3 text-sm text-stone">
               Point the camera at the ingredients — not the barcode.
             </figcaption>
           </figure>
-          <div className="mx-auto -mt-16 w-fit lg:absolute lg:-bottom-10 lg:-right-2 lg:mt-0">
+          <div className="relative z-10 mx-auto -mt-20 w-fit lg:absolute lg:bottom-2 lg:right-4 lg:mx-0 lg:mt-0">
             <PhoneVerdict />
           </div>
         </div>
