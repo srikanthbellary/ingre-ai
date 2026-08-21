@@ -1,0 +1,16 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next
+/.next/
+/out/
+
+# debug
+npm-debug.log*
+.DS_Store
+
+# env
+.env*
+!.env.example
