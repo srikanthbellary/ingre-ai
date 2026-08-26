@@ -22,22 +22,37 @@ export function Rise({
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+
+    const show = () => el.classList.add("is-in");
+
     if (reduced) {
-      el.classList.add("is-in");
+      show();
       return;
     }
 
+    const rect = el.getBoundingClientRect();
+    const inView = rect.top < window.innerHeight * 0.92;
+    if (inView) {
+      show();
+      return;
+    }
+
+    el.classList.add("will-rise");
     const io = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          el.classList.add("is-in");
+          show();
           io.disconnect();
         }
       },
       { threshold: 0.14, rootMargin: "0px 0px -6% 0px" }
     );
     io.observe(el);
-    return () => io.disconnect();
+    const fallback = window.setTimeout(show, 1600);
+    return () => {
+      window.clearTimeout(fallback);
+      io.disconnect();
+    };
   }, [reduced]);
 
   return (
