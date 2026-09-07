@@ -1,7 +1,8 @@
 import Image from "next/image";
-import { androidHref, site } from "@/lib/site";
+import { appHref, site } from "@/lib/site";
 import { FigurePlate } from "@/components/FigurePlate";
 import { LabelScanner } from "@/components/LabelScanner";
+import { ApertureMark } from "@/components/Logo";
 import { Rise } from "@/components/Rise";
 import { ScanSchematic } from "@/components/ScanSchematic";
 
@@ -26,20 +27,17 @@ const steps = [
 const verdicts = [
   {
     label: "Clear",
-    color: "text-clear",
-    bar: "bg-clear",
+    chip: "text-clear-bright",
     body: "Nothing on the published lists we check for this scan.",
   },
   {
     label: "Caution",
-    color: "text-caution",
-    bar: "bg-caution",
+    chip: "text-caution-bright",
     body: "Something worth a closer look before it goes in the cart.",
   },
   {
     label: "Avoid",
-    color: "text-flag-ink",
-    bar: "bg-flag",
+    chip: "text-avoid-bright",
     body: "Flagged on a list you can open and read.",
   },
 ];
@@ -50,18 +48,18 @@ export default function HomePage() {
       <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-20 pt-10 sm:px-8 lg:grid-cols-[0.92fr_1.08fr] lg:gap-16 lg:pb-28 lg:pt-16">
         <div>
           <Rise>
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone">
+            <p className="text-xs font-medium uppercase tracking-[0.22em] text-muted">
               Food · beauty · personal care
             </p>
           </Rise>
           <Rise delay={70}>
-            <h1 className="mt-4 max-w-xl font-display text-[2.6rem] leading-[1.08] tracking-tight text-ink sm:text-6xl">
+            <h1 className="mt-4 max-w-xl font-display text-[2.6rem] font-normal leading-[1.06] tracking-tight text-graphite sm:text-6xl">
               It reads the label.
-              <span className="block">Not the barcode.</span>
+              <span className="block text-slate">Not the barcode.</span>
             </h1>
           </Rise>
           <Rise delay={140}>
-            <p className="mt-6 max-w-lg text-lg leading-relaxed text-stone">
+            <p className="mt-6 max-w-lg text-lg leading-relaxed text-slate">
               Ingre photographs the printed ingredient list. If the words are on
               the package, it can read them — including products no catalog has
               listed yet.
@@ -70,13 +68,13 @@ export default function HomePage() {
           <Rise delay={200}>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
-                href={androidHref}
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-ink px-6 text-base font-medium text-paper hover:bg-ink/90"
+                href={appHref}
+                className="inline-flex min-h-12 items-center justify-center rounded-full bg-graphite px-6 text-base font-medium text-bone hover:bg-graphite-raised"
               >
-                Get on Android
+                Get Ingre
               </a>
-              <p className="text-sm text-stone sm:pl-2">
-                On Google Play. iOS is coming.
+              <p className="text-sm text-muted sm:pl-2">
+                Android and iOS. A few scans free.
               </p>
             </div>
           </Rise>
@@ -86,10 +84,11 @@ export default function HomePage() {
           <FigurePlate
             kicker="Fig. — label scan"
             note="Illustrative scan · Android and iOS"
+            tone="graphite"
           >
             <div className="p-4 sm:p-5">
               <LabelScanner />
-              <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-stone">
+              <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-bone/55">
                 Point the camera at the ingredients — not the barcode.
               </p>
             </div>
@@ -97,16 +96,16 @@ export default function HomePage() {
         </Rise>
       </section>
 
-      <section className="border-y border-line bg-card/70">
+      <section className="border-y border-line bg-bone-raised">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-5 py-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:py-24">
           <Rise>
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone">
+            <p className="text-xs font-medium uppercase tracking-[0.22em] text-muted">
               Why Ingre
             </p>
-            <h2 className="mt-3 font-display text-3xl tracking-tight text-ink sm:text-4xl">
+            <h2 className="mt-3 font-display text-3xl font-normal tracking-tight text-graphite sm:text-4xl">
               Catalogs miss the product in your hand.
             </h2>
-            <div className="mt-6 space-y-5 text-base leading-relaxed text-stone">
+            <div className="mt-6 space-y-5 text-base leading-relaxed text-slate">
               <p>
                 Most scanners look up a known barcode. If the item is new,
                 imported, private-label, or simply missing, you get nothing.
@@ -127,7 +126,7 @@ export default function HomePage() {
                 height={853}
                 priority
               />
-              <figcaption className="border-t border-line px-5 py-3 text-sm text-stone">
+              <figcaption className="border-t border-line px-5 py-3 text-sm text-muted">
                 The printed list — the product in your hand.
               </figcaption>
             </figure>
@@ -137,10 +136,10 @@ export default function HomePage() {
 
       <section id="how" className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-28">
         <Rise>
-          <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone">
+          <p className="text-xs font-medium uppercase tracking-[0.22em] text-muted">
             How it works
           </p>
-          <h2 className="mt-3 max-w-xl font-display text-3xl tracking-tight text-ink sm:text-4xl">
+          <h2 className="mt-3 max-w-xl font-display text-3xl font-normal tracking-tight text-graphite sm:text-4xl">
             Three steps in the aisle.
           </h2>
         </Rise>
@@ -157,11 +156,11 @@ export default function HomePage() {
         <ol className="station-rail mt-10">
           {steps.map((step, i) => (
             <Rise key={step.n} as="li" delay={i * 70}>
-              <p className="font-display text-sm text-flag">{step.n}</p>
-              <h3 className="mt-3 font-display text-2xl tracking-tight text-ink">
+              <p className="font-display text-sm text-ink">{step.n}</p>
+              <h3 className="mt-3 font-display text-2xl font-normal tracking-tight text-graphite">
                 {step.title}
               </h3>
-              <p className="mt-3 text-base leading-relaxed text-stone">
+              <p className="mt-3 text-base leading-relaxed text-slate">
                 {step.body}
               </p>
             </Rise>
@@ -169,16 +168,16 @@ export default function HomePage() {
         </ol>
       </section>
 
-      <section className="border-y border-line bg-card/70">
+      <section className="border-y border-graphite bg-graphite text-bone">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-28">
           <Rise>
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone">
+            <p className="text-xs font-medium uppercase tracking-[0.22em] text-bone/55">
               The verdict
             </p>
-            <h2 className="mt-3 max-w-xl font-display text-3xl tracking-tight text-ink sm:text-4xl">
+            <h2 className="mt-3 max-w-xl font-display text-3xl font-normal tracking-tight sm:text-4xl">
               Clear, caution, or avoid.
             </h2>
-            <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone">
+            <p className="mt-4 max-w-2xl text-base leading-relaxed text-bone/70">
               A short read you can use before the item goes in the cart. Not a
               diagnosis — a flag against published lists, with the source
               attached.
@@ -188,13 +187,10 @@ export default function HomePage() {
             <div className="verdict-lanes">
               {verdicts.map((item) => (
                 <article key={item.label} className="verdict-lane">
-                  <span className={`block h-1 w-10 rounded-full ${item.bar}`} />
-                  <h3
-                    className={`mt-5 font-display text-2xl tracking-tight ${item.color}`}
-                  >
+                  <span className={`verdict-chip ${item.chip}`}>
                     {item.label}
-                  </h3>
-                  <p className="mt-3 text-base leading-relaxed text-stone">
+                  </span>
+                  <p className="mt-5 text-base leading-relaxed text-bone/70">
                     {item.body}
                   </p>
                 </article>
@@ -207,13 +203,13 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-28">
         <div className="grid gap-12 lg:grid-cols-2">
           <Rise>
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-stone">
+            <p className="text-xs font-medium uppercase tracking-[0.22em] text-muted">
               What stays on the phone
             </p>
-            <h2 className="mt-3 font-display text-3xl tracking-tight text-ink sm:text-4xl">
+            <h2 className="mt-3 font-display text-3xl font-normal tracking-tight text-graphite sm:text-4xl">
               Your photos stay with you.
             </h2>
-            <p className="mt-5 text-base leading-relaxed text-stone">
+            <p className="mt-5 text-base leading-relaxed text-slate">
               Label photos remain on the phone unless you choose an optional
               extra-help feature. A few free scans to start. Sources are there
               to check — we do not ask you to take our word for a flag.
@@ -235,9 +231,11 @@ export default function HomePage() {
               },
             ].map((item, i) => (
               <Rise key={item.title} as="li" delay={i * 70}>
-                <div className="border border-line bg-card px-6 py-5">
-                  <h3 className="font-display text-xl text-ink">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-stone">
+                <div className="border border-line bg-bone-raised px-6 py-5">
+                  <h3 className="font-display text-xl text-graphite">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-slate">
                     {item.body}
                   </p>
                 </div>
@@ -247,38 +245,47 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="get" className="border-t border-line bg-ink text-paper">
-        <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+      <section id="get" className="border-t border-line bg-graphite text-bone">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-20 sm:px-8 lg:grid-cols-[1.1fr_0.9fr]">
           <Rise>
-            <h2 className="max-w-xl font-display text-3xl tracking-tight sm:text-5xl">
+            <h2 className="max-w-xl font-display text-3xl font-normal tracking-tight sm:text-5xl">
               Take the label with you.
             </h2>
-            <p className="mt-5 max-w-xl text-base leading-relaxed text-paper/75">
-              Ingre is on Android. Get it on Google Play, try a few scans, and
-              leave the barcode catalog for products that are already in one.
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-bone/70">
+              Point the camera at the printed ingredient list, read the verdict,
+              and open the list a flag came from. Food, beauty, and personal
+              care — on Android and iOS.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
-                href={androidHref}
-                className="inline-flex min-h-12 items-center justify-center rounded-full bg-paper px-6 text-base font-medium text-ink hover:bg-paper/90"
+                href={appHref}
+                className="inline-flex min-h-12 items-center justify-center rounded-full bg-bone px-6 text-base font-medium text-graphite hover:bg-white"
               >
-                Get on Android
+                Get Ingre
               </a>
-              <p className="text-sm text-paper/65">
-                iOS is coming. Not available yet.
+              <p className="text-sm text-bone/60">
+                Android and iOS. A few scans free.
               </p>
+            </div>
+          </Rise>
+          <Rise delay={90} className="justify-self-center lg:justify-self-end">
+            <div className="flex flex-col items-center gap-6 text-bone">
+              <ApertureMark className="h-28 w-28 text-bone/85" />
+              <span className="border-b-2 border-ink-bright pb-2 font-display text-2xl">
+                {site.domain}
+              </span>
             </div>
           </Rise>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
-        <p className="max-w-3xl text-sm leading-relaxed text-stone">
+        <p className="max-w-3xl text-sm leading-relaxed text-muted">
           Ingre is an informational tool. It is not medical advice, a diagnosis,
           or a substitute for reading the package yourself or talking with a
           qualified professional. Questions:{" "}
           <a
-            className="underline decoration-line underline-offset-4 hover:text-ink"
+            className="text-graphite underline decoration-ink decoration-2 underline-offset-4"
             href={`mailto:${site.supportEmail}`}
           >
             {site.supportEmail}

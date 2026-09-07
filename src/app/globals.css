@@ -2,7 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Monograph visual system.
+ * bone #F4F1EA · graphite #0B0D0F · ink #1F4A7D
+ * Saturation belongs to verdicts only — clear, caution, avoid.
+ */
+
 :root {
+  --bone: #f4f1ea;
+  --bone-raised: #faf8f3;
+  --graphite: #0b0d0f;
+  --graphite-raised: #15181b;
+  --ink: #1f4a7d;
+  --ink-bright: #4c82bf;
+  --slate: #4b5157;
+  --muted: #646a71;
+  --line: #dad6cb;
+  --clear: #1d7a4d;
+  --caution: #8f6100;
+  --avoid: #b32b23;
+  --clear-bright: #3fbf87;
+  --caution-bright: #e0a32e;
+  --avoid-bright: #e5675c;
   color-scheme: light;
 }
 
@@ -25,28 +46,26 @@ html {
 }
 
 body {
-  background-color: #f3eee4;
-  color: #1c1915;
+  background-color: var(--bone);
+  color: var(--graphite);
 }
 
 ::selection {
-  background: #f1cfc4;
-  color: #1c1915;
+  background: rgba(31, 74, 125, 0.22);
+  color: var(--graphite);
 }
 
-.paper-grain {
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.grain {
   background-image: radial-gradient(
-    rgba(28, 25, 21, 0.035) 0.6px,
+    rgba(11, 13, 15, 0.03) 0.6px,
     transparent 0.6px
   );
   background-size: 7px 7px;
-}
-
-.perforation {
-  background-image: radial-gradient(#d8d0c3 1.15px, transparent 1.2px);
-  background-size: 10px 10px;
-  background-position: center;
-  background-repeat: repeat-x;
 }
 
 .rise.will-rise:not(.is-in) {
@@ -62,6 +81,62 @@ body {
     transform 0.9s cubic-bezier(0.16, 1, 0.3, 1) var(--rise-delay, 0ms);
 }
 
+/* --- Aperture mark, used as page furniture ------------------------------- */
+
+.aperture-brackets {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.aperture-corner {
+  position: absolute;
+  z-index: 2;
+  width: 16px;
+  height: 16px;
+  border-color: rgba(11, 13, 15, 0.3);
+  border-style: solid;
+  border-width: 0;
+}
+
+.on-graphite .aperture-corner {
+  border-color: rgba(244, 241, 234, 0.34);
+}
+
+.aperture-corner.tl {
+  top: 7px;
+  left: 7px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-top-left-radius: 7px;
+}
+
+.aperture-corner.tr {
+  top: 7px;
+  right: 7px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-top-right-radius: 7px;
+}
+
+.aperture-corner.bl {
+  bottom: 7px;
+  left: 7px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-bottom-left-radius: 7px;
+}
+
+.aperture-corner.br {
+  bottom: 7px;
+  right: 7px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-bottom-right-radius: 7px;
+}
+
+/* --- Figure plates ------------------------------------------------------- */
+
 .figure-plate {
   margin: 0;
 }
@@ -76,48 +151,59 @@ body {
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #5e574e;
+  color: var(--muted);
 }
 
 .figure-field {
   position: relative;
   overflow: hidden;
-  border: 1px solid #d8d0c3;
-  background: rgba(255, 252, 246, 0.55);
+  border: 1px solid var(--line);
+  background: rgba(250, 248, 243, 0.62);
 }
 
-.figure-corner {
-  position: absolute;
-  z-index: 2;
-  width: 11px;
-  height: 11px;
-  border-color: rgba(28, 25, 21, 0.28);
-  border-style: solid;
-  pointer-events: none;
+/* A graphite plate is a window onto the app, which is dark-first. */
+.figure-plate.on-graphite .figure-field {
+  border-color: var(--graphite);
+  background: var(--graphite);
 }
 
-.figure-corner.tl {
-  top: 6px;
-  left: 6px;
-  border-width: 1px 0 0 1px;
+.on-graphite .finding {
+  border-color: rgba(244, 241, 234, 0.14);
+  background: rgba(244, 241, 234, 0.04);
 }
 
-.figure-corner.tr {
-  top: 6px;
-  right: 6px;
-  border-width: 1px 1px 0 0;
+.on-graphite .finding-name {
+  color: var(--bone);
 }
 
-.figure-corner.bl {
-  bottom: 6px;
-  left: 6px;
-  border-width: 0 0 1px 1px;
+.on-graphite .finding-why,
+.on-graphite .finding-tag {
+  color: rgba(244, 241, 234, 0.55);
 }
 
-.figure-corner.br {
-  bottom: 6px;
-  right: 6px;
-  border-width: 0 1px 1px 0;
+.on-graphite .finding-dot,
+.on-graphite .finding[data-level="avoid"] .finding-dot {
+  background: var(--avoid-bright);
+}
+
+.on-graphite .finding[data-level="caution"] .finding-dot {
+  background: var(--caution-bright);
+}
+
+.on-graphite .finding[data-level="clear"] .finding-dot {
+  background: var(--clear-bright);
+}
+
+.on-graphite .finding[data-level="avoid"] .finding-tag {
+  color: var(--avoid-bright);
+}
+
+.on-graphite .finding[data-level="caution"] .finding-tag {
+  color: var(--caution-bright);
+}
+
+.on-graphite .finding[data-level="clear"] .finding-tag {
+  color: var(--clear-bright);
 }
 
 .scan-schematic {
@@ -131,6 +217,8 @@ body {
     height: 470px;
   }
 }
+
+/* --- Hero scanner: the app is dark-first --------------------------------- */
 
 .scanner {
   display: grid;
@@ -150,9 +238,10 @@ body {
   position: relative;
   width: 100%;
   border-radius: 2rem;
-  background: #1c1915;
-  padding: 8px;
-  box-shadow: 0 22px 50px -20px rgba(28, 25, 21, 0.4);
+  background: #040506;
+  border: 1px solid rgba(244, 241, 234, 0.12);
+  padding: 7px;
+  box-shadow: 0 26px 56px -22px rgba(11, 13, 15, 0.5);
   aspect-ratio: 9 / 17;
 }
 
@@ -167,8 +256,8 @@ body {
   position: relative;
   height: 100%;
   overflow: hidden;
-  border-radius: 1.45rem;
-  background: #fffcf6;
+  border-radius: 1.5rem;
+  background: var(--graphite);
 }
 
 .phone-notch {
@@ -176,11 +265,11 @@ body {
   top: 8px;
   left: 50%;
   z-index: 5;
-  width: 34%;
-  height: 5px;
+  width: 30%;
+  height: 4px;
   transform: translateX(-50%);
   border-radius: 999px;
-  background: rgba(28, 25, 21, 0.78);
+  background: rgba(244, 241, 234, 0.24);
 }
 
 .label-card {
@@ -196,7 +285,7 @@ body {
   font-size: 0.58rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #5e574e;
+  color: rgba(244, 241, 234, 0.52);
 }
 
 .label-title {
@@ -204,7 +293,7 @@ body {
   font-size: 1.15rem;
   line-height: 1.1;
   letter-spacing: -0.02em;
-  color: #1c1915;
+  color: var(--bone);
 }
 
 .label-head {
@@ -213,7 +302,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #5e574e;
+  color: rgba(244, 241, 234, 0.45);
 }
 
 .label-row {
@@ -222,23 +311,27 @@ body {
   justify-content: space-between;
   gap: 0.4rem;
   padding: 0.32rem 0.42rem;
-  border: 1px solid rgba(28, 25, 21, 0.08);
-  border-radius: 3px;
-  background: rgba(243, 238, 228, 0.55);
+  border: 1px solid rgba(244, 241, 234, 0.12);
+  border-radius: 4px;
+  background: rgba(244, 241, 234, 0.05);
   font-size: 0.62rem;
-  color: rgba(28, 25, 21, 0.68);
+  color: rgba(244, 241, 234, 0.74);
+  transition:
+    border-color 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .label-row[data-flag="avoid"] {
-  border-color: rgba(194, 74, 42, 0.55);
-  background: rgba(194, 74, 42, 0.1);
-  color: #8e2f1c;
+  border-color: rgba(229, 103, 92, 0.5);
+  background: rgba(229, 103, 92, 0.14);
+  color: var(--avoid-bright);
 }
 
 .label-row[data-flag="caution"] {
-  border-color: rgba(165, 106, 18, 0.5);
-  background: rgba(165, 106, 18, 0.1);
-  color: #a56a12;
+  border-color: rgba(224, 163, 46, 0.45);
+  background: rgba(224, 163, 46, 0.13);
+  color: var(--caution-bright);
 }
 
 .label-flag {
@@ -265,21 +358,59 @@ body {
   background: linear-gradient(
     to bottom,
     transparent,
-    rgba(194, 74, 42, 0.1) 42%,
-    rgba(194, 74, 42, 0.55) 50%,
-    rgba(194, 74, 42, 0.1) 58%,
+    rgba(244, 241, 234, 0.06) 42%,
+    rgba(244, 241, 234, 0.5) 50%,
+    rgba(244, 241, 234, 0.06) 58%,
     transparent
   );
   animation: scan-beam 2.1s cubic-bezier(0.45, 0, 0.55, 1) both;
 }
 
+/* Viewfinder: the mark, doing its job */
 .scan-reticle {
   position: absolute;
-  inset: 8px;
+  inset: 10px;
   z-index: 3;
   pointer-events: none;
-  border: 1px dashed rgba(28, 25, 21, 0.12);
-  border-radius: 10px;
+}
+
+.scan-reticle span {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 0 solid rgba(244, 241, 234, 0.4);
+}
+
+.scan-reticle span:nth-child(1) {
+  top: 0;
+  left: 0;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-top-left-radius: 8px;
+}
+
+.scan-reticle span:nth-child(2) {
+  top: 0;
+  right: 0;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-top-right-radius: 8px;
+}
+
+.scan-reticle span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-bottom-left-radius: 8px;
+}
+
+.scan-reticle span:nth-child(4) {
+  bottom: 0;
+  right: 0;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-bottom-right-radius: 8px;
 }
 
 .verdict {
@@ -289,9 +420,9 @@ body {
   left: 0.6rem;
   z-index: 6;
   padding: 0.62rem 0.7rem;
-  border: 1px solid rgba(194, 74, 42, 0.35);
-  border-radius: 10px;
-  background: rgba(255, 252, 246, 0.94);
+  border: 1px solid rgba(244, 241, 234, 0.16);
+  border-radius: 12px;
+  background: rgba(21, 24, 27, 0.96);
   opacity: 0;
   transform: translateY(10px);
 }
@@ -308,7 +439,6 @@ body {
   display: flex;
   align-items: baseline;
   gap: 0.4rem;
-  color: #8e2f1c;
 }
 
 .verdict-score b {
@@ -317,18 +447,21 @@ body {
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
+  color: var(--avoid-bright);
 }
 
 .verdict-score span,
 .verdict-note {
   font-size: 0.58rem;
   line-height: 1.4;
-  color: #5e574e;
+  color: rgba(244, 241, 234, 0.6);
 }
 
 .verdict-note {
   margin-top: 0.22rem;
 }
+
+/* --- Findings list ------------------------------------------------------- */
 
 .findings {
   display: flex;
@@ -353,28 +486,29 @@ body {
   gap: 0.75rem;
   align-items: center;
   padding: 0.72rem 0.85rem;
-  border: 1px solid #d8d0c3;
-  background: rgba(255, 252, 246, 0.78);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: rgba(250, 248, 243, 0.82);
 }
 
 .finding-dot {
   width: 7px;
   height: 7px;
   border-radius: 999px;
-  background: #c24a2a;
+  background: var(--avoid);
 }
 
 .finding[data-level="caution"] .finding-dot {
-  background: #a56a12;
+  background: var(--caution);
 }
 
 .finding[data-level="clear"] .finding-dot {
-  background: #3f5a3c;
+  background: var(--clear);
 }
 
 .finding-name {
   display: block;
-  color: #1c1915;
+  color: var(--graphite);
   font-size: 0.95rem;
   line-height: 1.3;
 }
@@ -382,7 +516,7 @@ body {
 .finding-why {
   display: block;
   margin-top: 0.15rem;
-  color: #5e574e;
+  color: var(--muted);
   font-size: 0.8rem;
   line-height: 1.35;
 }
@@ -392,21 +526,23 @@ body {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #5e574e;
+  color: var(--muted);
   white-space: nowrap;
 }
 
 .finding[data-level="avoid"] .finding-tag {
-  color: #8e2f1c;
+  color: var(--avoid);
 }
 
 .finding[data-level="caution"] .finding-tag {
-  color: #a56a12;
+  color: var(--caution);
 }
 
 .finding[data-level="clear"] .finding-tag {
-  color: #3f5a3c;
+  color: var(--clear);
 }
+
+/* --- Structure ----------------------------------------------------------- */
 
 .station-rail {
   display: grid;
@@ -424,14 +560,14 @@ body {
 
 .station-rail li {
   padding-top: 0.85rem;
-  border-top: 1px solid #d8d0c3;
+  border-top: 1px solid var(--line);
 }
 
 .verdict-lanes {
   display: grid;
   gap: 0;
-  border: 1px solid #d8d0c3;
-  background: #fffcf6;
+  border: 1px solid rgba(244, 241, 234, 0.16);
+  background: rgba(21, 24, 27, 0.6);
 }
 
 @media (min-width: 760px) {
@@ -446,20 +582,41 @@ body {
 
 @media (min-width: 760px) {
   .verdict-lane + .verdict-lane {
-    border-left: 1px solid #d8d0c3;
+    border-left: 1px solid rgba(244, 241, 234, 0.16);
   }
 }
 
 @media (max-width: 759px) {
   .verdict-lane + .verdict-lane {
-    border-top: 1px solid #d8d0c3;
+    border-top: 1px solid rgba(244, 241, 234, 0.16);
   }
+}
+
+.verdict-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.28rem 0.6rem 0.28rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.verdict-chip::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
 }
 
 .still-plate {
   overflow: hidden;
-  border: 1px solid #d8d0c3;
-  background: #fffcf6;
+  border: 1px solid var(--line);
+  background: var(--bone-raised);
 }
 
 .still-plate img {
@@ -467,6 +624,8 @@ body {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  /* Pull the photograph toward the neutral bone/graphite pair */
+  filter: grayscale(0.62) contrast(1.05);
 }
 
 @keyframes scan-beam {

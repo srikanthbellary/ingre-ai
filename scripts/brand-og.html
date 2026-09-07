@@ -1,0 +1,215 @@
+<!doctype html>
+<!--
+  Source for public/brand/og-monograph.png (1200×630).
+  Render with a headless browser at 1200×630, e.g.
+
+    google-chrome --headless=new --no-sandbox --hide-scrollbars \
+      --window-size=1200,630 --screenshot=public/brand/og-monograph.png \
+      scripts/brand-og.html
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 1200px;
+        height: 630px;
+        background: #0b0d0f;
+        color: #f4f1ea;
+        font-family: Inter, system-ui, sans-serif;
+        overflow: hidden;
+      }
+
+      .field {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 74px 84px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: radial-gradient(
+          rgba(244, 241, 234, 0.05) 0.8px,
+          transparent 0.8px
+        );
+        background-size: 9px 9px;
+      }
+
+      .corner {
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        border: 0 solid rgba(244, 241, 234, 0.28);
+      }
+
+      .tl {
+        top: 40px;
+        left: 40px;
+        border-top-width: 3px;
+        border-left-width: 3px;
+        border-top-left-radius: 18px;
+      }
+
+      .tr {
+        top: 40px;
+        right: 40px;
+        border-top-width: 3px;
+        border-right-width: 3px;
+        border-top-right-radius: 18px;
+      }
+
+      .bl {
+        bottom: 40px;
+        left: 40px;
+        border-bottom-width: 3px;
+        border-left-width: 3px;
+        border-bottom-left-radius: 18px;
+      }
+
+      .br {
+        bottom: 40px;
+        right: 40px;
+        border-bottom-width: 3px;
+        border-right-width: 3px;
+        border-bottom-right-radius: 18px;
+      }
+
+      .lockup {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+
+      .lockup svg {
+        width: 48px;
+        height: 48px;
+      }
+
+      .wordmark {
+        font-family: Fraunces, Georgia, serif;
+        font-weight: 500;
+        font-size: 32px;
+        letter-spacing: -0.01em;
+      }
+
+      h1 {
+        max-width: 830px;
+        font-family: Fraunces, Georgia, serif;
+        font-weight: 400;
+        font-size: 82px;
+        line-height: 1.04;
+        letter-spacing: -0.02em;
+      }
+
+      h1 span {
+        display: block;
+        color: rgba(244, 241, 234, 0.62);
+      }
+
+      .foot {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 32px;
+      }
+
+      .kicker {
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: rgba(244, 241, 234, 0.55);
+      }
+
+      .domain {
+        font-family: Fraunces, Georgia, serif;
+        font-size: 34px;
+        padding-bottom: 8px;
+        border-bottom: 3px solid #4c82bf;
+      }
+
+      .chips {
+        display: flex;
+        gap: 12px;
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+        padding: 8px 16px;
+        border: 1px solid currentColor;
+        border-radius: 999px;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .chip::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: currentColor;
+      }
+
+      .clear {
+        color: #3fbf87;
+      }
+
+      .caution {
+        color: #e0a32e;
+      }
+
+      .avoid {
+        color: #e5675c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="field">
+      <span class="corner tl"></span>
+      <span class="corner tr"></span>
+      <span class="corner bl"></span>
+      <span class="corner br"></span>
+
+      <div class="lockup">
+        <svg viewBox="0 0 64 64" fill="none" stroke="#F4F1EA" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M23 9h-8a6 6 0 0 0-6 6v8" />
+          <path d="M41 9h8a6 6 0 0 1 6 6v8" />
+          <path d="M55 41v8a6 6 0 0 1-6 6h-8" />
+          <path d="M9 41v8a6 6 0 0 0 6 6h8" />
+          <circle cx="32" cy="22.4" r="2.2" />
+          <path d="M32 31v12" />
+        </svg>
+        <span class="wordmark">Ingre</span>
+      </div>
+
+      <h1>It reads the label.<span>Not the barcode.</span></h1>
+
+      <div class="foot">
+        <div>
+          <p class="kicker">Food · beauty · personal care</p>
+          <div class="chips" style="margin-top: 22px">
+            <span class="chip clear">Clear</span>
+            <span class="chip caution">Caution</span>
+            <span class="chip avoid">Avoid</span>
+          </div>
+        </div>
+        <span class="domain">ingre.ai</span>
+      </div>
+    </div>
+  </body>
+</html>
