@@ -5,23 +5,32 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        paper: "#F3EEE4",
-        card: "#FFFCF6",
-        ink: "#1C1915",
-        stone: "#5E574E",
-        line: "#D8D0C3",
-        flag: "#C24A2A",
-        "flag-ink": "#8E2F1C",
-        clear: "#3F5A3C",
-        caution: "#A56A12",
+        // Monograph core tokens
+        bone: "#F4F1EA",
+        "bone-raised": "#FAF8F3",
+        graphite: "#0B0D0F",
+        "graphite-raised": "#15181B",
+        ink: "#1F4A7D",
+        "ink-bright": "#4C82BF",
+        // Neutrals derived from the core pair
+        slate: "#4B5157",
+        muted: "#646A71",
+        line: "#DAD6CB",
+        // Verdict-only saturation: chips and dots, never brand chrome
+        clear: "#1D7A4D",
+        caution: "#8F6100",
+        avoid: "#B32B23",
+        "clear-bright": "#3FBF87",
+        "caution-bright": "#E0A32E",
+        "avoid-bright": "#E5675C",
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],
         sans: ["var(--font-sans)", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        still: "0 18px 40px -24px rgba(28, 25, 21, 0.35)",
-        phone: "0 22px 50px -20px rgba(28, 25, 21, 0.4)",
+        still: "0 18px 40px -26px rgba(11, 13, 15, 0.4)",
+        phone: "0 26px 56px -22px rgba(11, 13, 15, 0.5)",
       },
     },
   },

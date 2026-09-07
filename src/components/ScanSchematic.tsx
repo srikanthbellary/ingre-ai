@@ -6,17 +6,18 @@ import { SCHEMATIC_TOKENS, type Level } from "@/lib/label";
 
 const STAGES = ["01 · Scan", "02 · Parse", "03 · Flag", "04 · Call"];
 
-const RULE = "rgba(28,25,21,0.20)";
-const RULE_SOFT = "rgba(28,25,21,0.10)";
-const GRID = "rgba(28,25,21,0.045)";
-const INK = "rgba(28,25,21,0.82)";
-const INK_DIM = "rgba(94,87,78,0.88)";
-const FLAG = "#C24A2A";
-const CAUTION = "#A56A12";
-const CLEAR = "#3F5A3C";
+const RULE = "rgba(11,13,15,0.22)";
+const RULE_SOFT = "rgba(11,13,15,0.10)";
+const GRID = "rgba(11,13,15,0.045)";
+const GRAPHITE = "rgba(11,13,15,0.84)";
+const GRAPHITE_DIM = "rgba(75,81,87,0.9)";
+const INK = "#1F4A7D";
+const AVOID = "#B32B23";
+const CAUTION = "#8F6100";
+const CLEAR = "#1D7A4D";
 
 const LEVEL_COLOR: Record<Level, string> = {
-  avoid: FLAG,
+  avoid: AVOID,
   caution: CAUTION,
   clear: CLEAR,
 };
@@ -118,8 +119,8 @@ export function ScanSchematic() {
 
     const frame = (box: Box, active: number) => {
       ctx.strokeStyle =
-        active > 0.02 ? `rgba(194,74,42,${0.22 + active * 0.5})` : RULE_SOFT;
-      ctx.fillStyle = `rgba(194,74,42,${active * 0.045})`;
+        active > 0.02 ? `rgba(31,74,125,${0.22 + active * 0.5})` : RULE_SOFT;
+      ctx.fillStyle = `rgba(31,74,125,${active * 0.05})`;
       ctx.beginPath();
       ctx.rect(box.x, box.y, box.w, box.h);
       ctx.fill();
@@ -138,7 +139,7 @@ export function ScanSchematic() {
         const y = startY + rowGap * i;
         const seen = held > 0 || p * rows > i;
         const w = innerW * widths[i];
-        ctx.strokeStyle = seen ? "rgba(28,25,21,0.42)" : "rgba(28,25,21,0.12)";
+        ctx.strokeStyle = seen ? "rgba(11,13,15,0.45)" : "rgba(11,13,15,0.12)";
         ctx.lineWidth = seen ? 1.6 : 1;
         ctx.beginPath();
         ctx.moveTo(box.x + pad, Math.round(y) + 0.5);
@@ -150,12 +151,12 @@ export function ScanSchematic() {
       if (p > 0 && p < 1) {
         const beamY = box.y + pad + (box.h - pad * 2) * p;
         const grad = ctx.createLinearGradient(0, beamY - 16, 0, beamY + 16);
-        grad.addColorStop(0, "rgba(194,74,42,0)");
-        grad.addColorStop(0.5, "rgba(194,74,42,0.18)");
-        grad.addColorStop(1, "rgba(194,74,42,0)");
+        grad.addColorStop(0, "rgba(31,74,125,0)");
+        grad.addColorStop(0.5, "rgba(31,74,125,0.16)");
+        grad.addColorStop(1, "rgba(31,74,125,0)");
         ctx.fillStyle = grad;
         ctx.fillRect(box.x + 1, beamY - 16, box.w - 2, 32);
-        ctx.strokeStyle = FLAG;
+        ctx.strokeStyle = INK;
         ctx.beginPath();
         ctx.moveTo(box.x + 1, Math.round(beamY) + 0.5);
         ctx.lineTo(box.x + box.w - 1, Math.round(beamY) + 0.5);
@@ -197,13 +198,13 @@ export function ScanSchematic() {
 
         ctx.globalAlpha = appear;
         ctx.strokeStyle = on ? color : RULE_SOFT;
-        ctx.fillStyle = on ? `${color}16` : "rgba(255,252,246,0.72)";
+        ctx.fillStyle = on ? `${color}16` : "rgba(250,248,243,0.72)";
         ctx.beginPath();
         ctx.rect(box.x + pad, y, w, rowH - 4);
         ctx.fill();
         ctx.stroke();
 
-        ctx.fillStyle = on ? INK : INK_DIM;
+        ctx.fillStyle = on ? GRAPHITE : GRAPHITE_DIM;
         ctx.fillText(fit(token.name, w - 26), box.x + pad + 7, y + (rowH - 4) / 2);
 
         if (on) {
@@ -235,14 +236,14 @@ export function ScanSchematic() {
         ctx.fillStyle = LEVEL_COLOR[level];
         ctx.fillText(String(Math.ceil(n * appear)), box.x + pad + 12, y);
         ctx.font = labelFont(fs() - 1);
-        ctx.fillStyle = INK_DIM;
+        ctx.fillStyle = GRAPHITE_DIM;
         ctx.fillText(text, box.x + pad + 12 + 16, y + 0.5);
         ctx.globalAlpha = 1;
       });
 
       const verdictY = top + rowH * 3 + 14;
       ctx.font = labelFont(fs() - 1);
-      ctx.fillStyle = p > 0.9 ? FLAG : INK_DIM;
+      ctx.fillStyle = p > 0.9 ? AVOID : GRAPHITE_DIM;
       ctx.fillText(fit("Avoid · open the source", box.w - 28), box.x + 14, verdictY);
     };
 
@@ -269,9 +270,9 @@ export function ScanSchematic() {
       if (p > 0 && p < 1) {
         const x = s.x + (e.x - s.x) * p;
         const y = s.y + (e.y - s.y) * p;
-        ctx.fillStyle = FLAG;
+        ctx.fillStyle = INK;
         ctx.fillRect(x - 2.5, y - 2.5, 5, 5);
-        ctx.strokeStyle = "rgba(194,74,42,0.4)";
+        ctx.strokeStyle = "rgba(31,74,125,0.4)";
         ctx.beginPath();
         ctx.rect(x - 5.5, y - 5.5, 11, 11);
         ctx.stroke();
@@ -329,7 +330,7 @@ export function ScanSchematic() {
       ctx.font = labelFont(fs());
       ctx.textBaseline = "middle";
       boxes.forEach((box, i) => {
-        ctx.fillStyle = active[i] > 0.5 ? FLAG : INK_DIM;
+        ctx.fillStyle = active[i] > 0.5 ? INK : GRAPHITE_DIM;
         ctx.fillText(STAGES[i].toUpperCase(), box.x, box.y - 9);
       });
 
@@ -350,7 +351,7 @@ export function ScanSchematic() {
       ).forEach(([level, text]) => {
         ctx.fillStyle = LEVEL_COLOR[level];
         ctx.fillRect(lx, ly - 2, 8, 3);
-        ctx.fillStyle = INK_DIM;
+        ctx.fillStyle = GRAPHITE_DIM;
         ctx.fillText(text, lx + 13, ly);
         lx += 13 + ctx.measureText(text).width + 18;
       });

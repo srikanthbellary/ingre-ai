@@ -121,7 +121,12 @@ export function LabelScanner() {
       <div className="phone" aria-hidden="true">
         <div className="phone-screen">
           <span className="phone-notch" />
-          <span className="scan-reticle" />
+          <span className="scan-reticle">
+            <span />
+            <span />
+            <span />
+            <span />
+          </span>
           {beamOn ? <span className="scan-beam" /> : null}
           <div className="label-card">
             <p className="label-kicker">Personal care</p>
