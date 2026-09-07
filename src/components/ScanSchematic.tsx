@@ -6,9 +6,9 @@ import { SCHEMATIC_TOKENS, type Level } from "@/lib/label";
 
 const STAGES = ["01 · Scan", "02 · Parse", "03 · Flag", "04 · Call"];
 
-const RULE = "rgba(11,13,15,0.22)";
-const RULE_SOFT = "rgba(11,13,15,0.10)";
-const GRID = "rgba(11,13,15,0.045)";
+const RULE = "rgba(11,13,15,0.28)";
+const RULE_SOFT = "rgba(11,13,15,0.16)";
+const GRID = "rgba(11,13,15,0.05)";
 const GRAPHITE = "rgba(11,13,15,0.84)";
 const GRAPHITE_DIM = "rgba(75,81,87,0.9)";
 const INK = "#1F4A7D";

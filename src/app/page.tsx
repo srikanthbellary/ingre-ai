@@ -88,7 +88,7 @@ export default function HomePage() {
           >
             <div className="p-4 sm:p-5">
               <LabelScanner />
-              <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-muted">
+              <p className="mt-4 text-[0.68rem] font-semibold uppercase tracking-[0.16em] text-bone/55">
                 Point the camera at the ingredients — not the barcode.
               </p>
             </div>

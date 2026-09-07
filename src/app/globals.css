@@ -161,13 +161,49 @@ body {
   background: rgba(250, 248, 243, 0.62);
 }
 
-.figure-plate.on-graphite .figure-legend {
-  color: rgba(244, 241, 234, 0.6);
+/* A graphite plate is a window onto the app, which is dark-first. */
+.figure-plate.on-graphite .figure-field {
+  border-color: var(--graphite);
+  background: var(--graphite);
 }
 
-.figure-plate.on-graphite .figure-field {
-  border-color: rgba(244, 241, 234, 0.16);
-  background: rgba(21, 24, 27, 0.72);
+.on-graphite .finding {
+  border-color: rgba(244, 241, 234, 0.14);
+  background: rgba(244, 241, 234, 0.04);
+}
+
+.on-graphite .finding-name {
+  color: var(--bone);
+}
+
+.on-graphite .finding-why,
+.on-graphite .finding-tag {
+  color: rgba(244, 241, 234, 0.55);
+}
+
+.on-graphite .finding-dot,
+.on-graphite .finding[data-level="avoid"] .finding-dot {
+  background: var(--avoid-bright);
+}
+
+.on-graphite .finding[data-level="caution"] .finding-dot {
+  background: var(--caution-bright);
+}
+
+.on-graphite .finding[data-level="clear"] .finding-dot {
+  background: var(--clear-bright);
+}
+
+.on-graphite .finding[data-level="avoid"] .finding-tag {
+  color: var(--avoid-bright);
+}
+
+.on-graphite .finding[data-level="caution"] .finding-tag {
+  color: var(--caution-bright);
+}
+
+.on-graphite .finding[data-level="clear"] .finding-tag {
+  color: var(--clear-bright);
 }
 
 .scan-schematic {
@@ -203,6 +239,7 @@ body {
   width: 100%;
   border-radius: 2rem;
   background: #040506;
+  border: 1px solid rgba(244, 241, 234, 0.12);
   padding: 7px;
   box-shadow: 0 26px 56px -22px rgba(11, 13, 15, 0.5);
   aspect-ratio: 9 / 17;
