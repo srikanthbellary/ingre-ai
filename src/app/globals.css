@@ -3,28 +3,61 @@
 @tailwind utilities;
 
 /*
- * Monograph visual system.
- * bone #F4F1EA · graphite #0B0D0F · ink #1F4A7D
- * Saturation belongs to verdicts only — clear, caution, avoid.
+ * Glassy Monograph.
+ * Monograph hues stay: bone #F4F1EA, graphite #0B0D0F, ink #1F4A7D.
+ * Glass is a material layer: low-alpha bone or graphite, blur, hairline, specular.
+ * Saturation belongs to verdicts only: clear, caution, avoid.
  */
 
 :root {
   --bone: #f4f1ea;
+  --bone-50: #fbf9f5;
   --bone-raised: #faf8f3;
   --graphite: #0b0d0f;
   --graphite-raised: #15181b;
   --ink: #1f4a7d;
   --ink-bright: #4c82bf;
+  --ink-300: #7c9fc8;
   --slate: #4b5157;
   --muted: #646a71;
   --line: #dad6cb;
+  --gr-300: #98a1ab;
+  --gr-400: #828890;
+  --gr-600: #242a31;
+  --gr-700: #191d21;
+  --gr-800: #121518;
   --clear: #1d7a4d;
   --caution: #8f6100;
   --avoid: #b32b23;
   --clear-bright: #3fbf87;
   --caution-bright: #e0a32e;
   --avoid-bright: #e5675c;
-  color-scheme: light;
+  --clear-lit: #3fc38f;
+  --caution-lit: #e2a93e;
+  --avoid-lit: #f0736b;
+  --clear-wash: #0e2a21;
+  --caution-wash: #2a2011;
+  --avoid-wash: #2b1514;
+
+  --glass-fill: rgba(244, 241, 234, 0.06);
+  --glass-fill-strong: rgba(244, 241, 234, 0.1);
+  --glass-fill-dark: rgba(11, 13, 15, 0.55);
+  --glass-hairline: rgba(244, 241, 234, 0.14);
+  --glass-edge: rgba(244, 241, 234, 0.08);
+  --glass-specular: linear-gradient(
+    180deg,
+    rgba(244, 241, 234, 0.1),
+    rgba(244, 241, 234, 0) 42%
+  );
+  --blur-pill: 14px;
+  --blur-card: 18px;
+  --blur-chrome: 24px;
+  --r-card: 18px;
+  --r-chrome: 26px;
+  --shadow-glass: 0 18px 40px -18px rgba(0, 0, 0, 0.75),
+    0 2px 8px -2px rgba(0, 0, 0, 0.5);
+
+  color-scheme: dark;
 }
 
 html {
@@ -46,26 +79,299 @@ html {
 }
 
 body {
-  background-color: var(--bone);
-  color: var(--graphite);
+  background-color: var(--graphite);
+  color: var(--bone);
+  position: relative;
+}
+
+/* One ambient field for the page. Fixed so glass has something to refract. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60vw 40vh at 8% 0%, rgba(31, 74, 125, 0.32), transparent 70%),
+    radial-gradient(50vw 40vh at 100% 55%, rgba(63, 195, 143, 0.1), transparent 70%),
+    radial-gradient(40vw 30vh at 50% 110%, rgba(226, 169, 62, 0.08), transparent 70%);
+}
+
+:where(body > *) {
+  position: relative;
+  z-index: 1;
 }
 
 ::selection {
-  background: rgba(31, 74, 125, 0.22);
-  color: var(--graphite);
+  background: rgba(124, 159, 200, 0.35);
+  color: var(--bone);
 }
 
 :focus-visible {
-  outline: 2px solid var(--ink);
+  outline: 2px solid var(--ink-300);
   outline-offset: 3px;
 }
 
 .grain {
   background-image: radial-gradient(
-    rgba(11, 13, 15, 0.03) 0.6px,
+    rgba(244, 241, 234, 0.035) 0.6px,
     transparent 0.6px
   );
   background-size: 7px 7px;
+}
+
+/* --- Glass primitives ---------------------------------------------------- */
+
+.glass {
+  position: relative;
+  background: var(--glass-fill);
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--r-card);
+  -webkit-backdrop-filter: blur(var(--blur-card)) saturate(1.15);
+  backdrop-filter: blur(var(--blur-card)) saturate(1.15);
+  box-shadow: var(--shadow-glass);
+  overflow: hidden;
+}
+
+.glass::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: var(--glass-specular);
+}
+
+.glass::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 14%;
+  right: 14%;
+  z-index: 2;
+  height: 1px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, var(--glass-hairline), transparent);
+}
+
+.glass > * {
+  position: relative;
+  z-index: 1;
+}
+
+.glass > .aperture-corner {
+  position: absolute;
+  z-index: 3;
+}
+
+.glass-strong {
+  background: var(--glass-fill-strong);
+}
+
+.glass-dark {
+  background: var(--glass-fill-dark);
+}
+
+.glass-pill {
+  border-radius: 999px;
+  -webkit-backdrop-filter: blur(var(--blur-pill)) saturate(1.15);
+  backdrop-filter: blur(var(--blur-pill)) saturate(1.15);
+}
+
+.glass-sq {
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(var(--blur-pill)) saturate(1.15);
+  backdrop-filter: blur(var(--blur-pill)) saturate(1.15);
+}
+
+.glass-chrome {
+  border-radius: var(--r-chrome);
+  -webkit-backdrop-filter: blur(var(--blur-chrome)) saturate(1.2);
+  backdrop-filter: blur(var(--blur-chrome)) saturate(1.2);
+}
+
+.glass-flat {
+  box-shadow: none;
+}
+
+.glass-disc {
+  position: relative;
+  display: grid;
+  width: 148px;
+  height: 148px;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid var(--glass-edge);
+  border-radius: 999px;
+  background: var(--glass-fill);
+  -webkit-backdrop-filter: blur(var(--blur-card)) saturate(1.15);
+  backdrop-filter: blur(var(--blur-card)) saturate(1.15);
+  box-shadow: var(--shadow-glass);
+}
+
+.glass-disc::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  z-index: 0;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0 70%,
+    rgba(244, 241, 234, 0.16) 84%,
+    transparent 100%
+  );
+  animation: glass-drift 9s linear infinite;
+}
+
+.glass-disc::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: inherit;
+  pointer-events: none;
+  background: var(--glass-specular);
+}
+
+.glass-disc > * {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes glass-drift {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section-rule {
+  border-top: 1px solid var(--gr-700);
+}
+
+/* Colored field behind glass, so the frost has something to refract. */
+.ambient-stage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background:
+    radial-gradient(60% 50% at 18% 8%, rgba(31, 74, 125, 0.55), transparent 70%),
+    radial-gradient(50% 45% at 92% 92%, rgba(63, 195, 143, 0.28), transparent 70%),
+    radial-gradient(42% 40% at 72% 16%, rgba(226, 169, 62, 0.18), transparent 70%),
+    var(--gr-800);
+}
+
+.ambient-stage::before {
+  content: "";
+  position: absolute;
+  inset: -14%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.28;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent 0 22px,
+    rgba(244, 241, 234, 0.14) 22px 23px
+  );
+  transform: rotate(-7deg);
+  mix-blend-mode: screen;
+}
+
+.ambient-stage > * {
+  position: relative;
+  z-index: 1;
+}
+
+.ambient-stage > .aperture-corner {
+  position: absolute;
+  z-index: 3;
+}
+
+.eyebrow {
+  font-family: var(--font-mono), ui-monospace, Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--gr-400);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  transition: transform 60ms ease-out, background-color 60ms ease-out;
+}
+
+.btn:active {
+  transform: scale(0.985);
+}
+
+.btn-primary {
+  background: var(--bone);
+  color: var(--graphite);
+}
+
+.btn-primary:hover {
+  background: var(--bone-50);
+}
+
+.btn-sm {
+  min-height: 40px;
+  padding: 0 16px;
+  font-size: 13px;
+}
+
+.ink-link {
+  color: var(--ink-300);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(124, 159, 200, 0.35);
+}
+
+.ink-link:hover {
+  border-bottom-color: var(--ink-300);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px 5px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.chip::before {
+  content: "";
+  width: 6.5px;
+  height: 6.5px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.chip-clear {
+  background: var(--clear-wash);
+  color: var(--clear-lit);
+}
+
+.chip-caution {
+  background: var(--caution-wash);
+  color: var(--caution-lit);
+}
+
+.chip-avoid {
+  background: var(--avoid-wash);
+  color: var(--avoid-lit);
 }
 
 .rise.will-rise:not(.is-in) {
@@ -94,13 +400,9 @@ body {
   z-index: 2;
   width: 16px;
   height: 16px;
-  border-color: rgba(11, 13, 15, 0.3);
+  border-color: rgba(244, 241, 234, 0.34);
   border-style: solid;
   border-width: 0;
-}
-
-.on-graphite .aperture-corner {
-  border-color: rgba(244, 241, 234, 0.34);
 }
 
 .aperture-corner.tl {
@@ -147,63 +449,16 @@ body {
   justify-content: space-between;
   gap: 0.5rem 1.5rem;
   margin-bottom: 0.75rem;
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
+  font-family: var(--font-mono), ui-monospace, Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--gr-400);
 }
 
 .figure-field {
   position: relative;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background: rgba(250, 248, 243, 0.62);
-}
-
-/* A graphite plate is a window onto the app, which is dark-first. */
-.figure-plate.on-graphite .figure-field {
-  border-color: var(--graphite);
-  background: var(--graphite);
-}
-
-.on-graphite .finding {
-  border-color: rgba(244, 241, 234, 0.14);
-  background: rgba(244, 241, 234, 0.04);
-}
-
-.on-graphite .finding-name {
-  color: var(--bone);
-}
-
-.on-graphite .finding-why,
-.on-graphite .finding-tag {
-  color: rgba(244, 241, 234, 0.55);
-}
-
-.on-graphite .finding-dot,
-.on-graphite .finding[data-level="avoid"] .finding-dot {
-  background: var(--avoid-bright);
-}
-
-.on-graphite .finding[data-level="caution"] .finding-dot {
-  background: var(--caution-bright);
-}
-
-.on-graphite .finding[data-level="clear"] .finding-dot {
-  background: var(--clear-bright);
-}
-
-.on-graphite .finding[data-level="avoid"] .finding-tag {
-  color: var(--avoid-bright);
-}
-
-.on-graphite .finding[data-level="caution"] .finding-tag {
-  color: var(--caution-bright);
-}
-
-.on-graphite .finding[data-level="clear"] .finding-tag {
-  color: var(--clear-bright);
 }
 
 .scan-schematic {
@@ -239,9 +494,9 @@ body {
   width: 100%;
   border-radius: 2rem;
   background: #040506;
-  border: 1px solid rgba(244, 241, 234, 0.12);
+  border: 1px solid var(--glass-edge);
   padding: 7px;
-  box-shadow: 0 26px 56px -22px rgba(11, 13, 15, 0.5);
+  box-shadow: var(--shadow-glass);
   aspect-ratio: 9 / 17;
 }
 
@@ -311,9 +566,6 @@ body {
   justify-content: space-between;
   gap: 0.4rem;
   padding: 0.32rem 0.42rem;
-  border: 1px solid rgba(244, 241, 234, 0.12);
-  border-radius: 4px;
-  background: rgba(244, 241, 234, 0.05);
   font-size: 0.62rem;
   color: rgba(244, 241, 234, 0.74);
   transition:
@@ -420,9 +672,7 @@ body {
   left: 0.6rem;
   z-index: 6;
   padding: 0.62rem 0.7rem;
-  border: 1px solid rgba(244, 241, 234, 0.16);
   border-radius: 12px;
-  background: rgba(21, 24, 27, 0.96);
   opacity: 0;
   transform: translateY(10px);
 }
@@ -486,29 +736,26 @@ body {
   gap: 0.75rem;
   align-items: center;
   padding: 0.72rem 0.85rem;
-  border: 1px solid var(--line);
-  border-radius: 4px;
-  background: rgba(250, 248, 243, 0.82);
 }
 
 .finding-dot {
   width: 7px;
   height: 7px;
   border-radius: 999px;
-  background: var(--avoid);
+  background: var(--avoid-lit);
 }
 
 .finding[data-level="caution"] .finding-dot {
-  background: var(--caution);
+  background: var(--caution-lit);
 }
 
 .finding[data-level="clear"] .finding-dot {
-  background: var(--clear);
+  background: var(--clear-lit);
 }
 
 .finding-name {
   display: block;
-  color: var(--graphite);
+  color: var(--bone);
   font-size: 0.95rem;
   line-height: 1.3;
 }
@@ -516,7 +763,7 @@ body {
 .finding-why {
   display: block;
   margin-top: 0.15rem;
-  color: var(--muted);
+  color: var(--gr-300);
   font-size: 0.8rem;
   line-height: 1.35;
 }
@@ -526,20 +773,20 @@ body {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--gr-400);
   white-space: nowrap;
 }
 
 .finding[data-level="avoid"] .finding-tag {
-  color: var(--avoid);
+  color: var(--avoid-lit);
 }
 
 .finding[data-level="caution"] .finding-tag {
-  color: var(--caution);
+  color: var(--caution-lit);
 }
 
 .finding[data-level="clear"] .finding-tag {
-  color: var(--clear);
+  color: var(--clear-lit);
 }
 
 /* --- Structure ----------------------------------------------------------- */
@@ -558,16 +805,18 @@ body {
   }
 }
 
+.station-rail.ambient-stage {
+  padding: 1.15rem;
+  gap: 1rem;
+}
+
 .station-rail li {
-  padding-top: 0.85rem;
-  border-top: 1px solid var(--line);
+  padding: 1.15rem 1.2rem 1.25rem;
 }
 
 .verdict-lanes {
   display: grid;
   gap: 0;
-  border: 1px solid rgba(244, 241, 234, 0.16);
-  background: rgba(21, 24, 27, 0.6);
 }
 
 @media (min-width: 760px) {
@@ -582,41 +831,14 @@ body {
 
 @media (min-width: 760px) {
   .verdict-lane + .verdict-lane {
-    border-left: 1px solid rgba(244, 241, 234, 0.16);
+    border-left: 1px solid var(--glass-edge);
   }
 }
 
 @media (max-width: 759px) {
   .verdict-lane + .verdict-lane {
-    border-top: 1px solid rgba(244, 241, 234, 0.16);
+    border-top: 1px solid var(--glass-edge);
   }
-}
-
-.verdict-chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.28rem 0.6rem 0.28rem 0.5rem;
-  border: 1px solid currentColor;
-  border-radius: 999px;
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.verdict-chip::before {
-  content: "";
-  width: 6px;
-  height: 6px;
-  border-radius: 999px;
-  background: currentColor;
-}
-
-.still-plate {
-  overflow: hidden;
-  border: 1px solid var(--line);
-  background: var(--bone-raised);
 }
 
 .still-plate img {
@@ -624,8 +846,12 @@ body {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  /* Pull the photograph toward the neutral bone/graphite pair */
-  filter: grayscale(0.62) contrast(1.05);
+  filter: grayscale(0.28) contrast(1.04);
+}
+
+.still-plate figcaption {
+  border-top: 1px solid var(--glass-edge);
+  color: var(--gr-400);
 }
 
 @keyframes scan-beam {
@@ -634,5 +860,91 @@ body {
   }
   to {
     top: 104%;
+  }
+}
+
+/* Solid Monograph when blur is unavailable or the reader asks for it. */
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+  :root {
+    --glass-fill: var(--gr-800);
+    --glass-fill-strong: var(--gr-800);
+    --glass-fill-dark: var(--graphite);
+  }
+
+  body::before,
+  .ambient-stage::before {
+    display: none;
+  }
+
+  .ambient-stage {
+    background: var(--gr-800);
+  }
+
+  .glass,
+  .glass-disc,
+  .glass-strong,
+  .glass-dark {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+
+  .glass::before,
+  .glass-disc::before,
+  .glass-disc::after {
+    display: none;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --gr-300: #e8e3d9;
+    --gr-400: #f4f1ea;
+  }
+
+  .glass,
+  .glass-disc {
+    border-color: rgba(244, 241, 234, 0.72);
+  }
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --glass-fill: #121518;
+    --glass-fill-strong: #121518;
+    --glass-fill-dark: #0b0d0f;
+  }
+
+  .glass,
+  .glass-disc {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .glass::before,
+  .glass-disc::before {
+    display: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .glass,
+  .glass-disc,
+  .btn-primary {
+    background: Canvas;
+    color: CanvasText;
+    border: 1px solid CanvasText;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+
+  .glass::before,
+  .glass::after,
+  .glass-disc::before,
+  .glass-disc::after,
+  .ambient-stage::before,
+  body::before {
+    display: none;
   }
 }

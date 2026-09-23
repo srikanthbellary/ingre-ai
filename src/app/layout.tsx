@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Fraunces, IBM_Plex_Mono, Inter } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { site } from "@/lib/site";
@@ -17,24 +17,31 @@ const sans = Inter({
   display: "swap",
 });
 
+const mono = IBM_Plex_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-mono",
+  display: "swap",
+});
+
 const ogImage = {
   url: "/brand/og-monograph.png",
   width: 1200,
   height: 630,
-  alt: "Ingre — it reads the label, not the barcode",
+  alt: "Ingre. It reads the label, not the barcode",
 };
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Ingre — It reads the label. Not the barcode.",
+    default: "Ingre. It reads the label. Not the barcode.",
     template: "%s · Ingre",
   },
   description: site.description,
   applicationName: site.name,
   authors: [{ name: "Ingre" }],
   openGraph: {
-    title: "Ingre — It reads the label. Not the barcode.",
+    title: "Ingre. It reads the label. Not the barcode.",
     description: site.description,
     url: site.url,
     siteName: site.name,
@@ -44,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ingre — It reads the label. Not the barcode.",
+    title: "Ingre. It reads the label. Not the barcode.",
     description: site.description,
     images: [ogImage.url],
   },
@@ -58,7 +65,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#F4F1EA",
+  themeColor: "#0B0D0F",
 };
 
 export default function RootLayout({
@@ -67,11 +74,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
-      <body className="grain bg-bone font-sans text-graphite antialiased">
+    <html lang="en" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
+      <body className="grain bg-graphite font-sans text-bone antialiased">
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-graphite focus:px-4 focus:py-2 focus:text-bone"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-xl focus:bg-bone focus:px-4 focus:py-2 focus:text-graphite"
         >
           Skip to content
         </a>

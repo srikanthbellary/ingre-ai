@@ -25,7 +25,7 @@ export function FigurePlate({
         <span>{kicker}</span>
         {note ? <span>{note}</span> : null}
       </figcaption>
-      <div className={`figure-field ${fieldClassName}`.trim()}>
+      <div className={`figure-field ambient-stage ${fieldClassName}`.trim()}>
         {children}
         <span className="aperture-corner tl" aria-hidden="true" />
         <span className="aperture-corner tr" aria-hidden="true" />
