@@ -137,7 +137,7 @@ export function LabelScanner() {
               return (
                 <div
                   key={row.name}
-                  className="label-row"
+                  className="label-row glass glass-sq glass-flat glass-dark"
                   data-flag={flag ?? ""}
                 >
                   <span>{row.name}</span>
@@ -148,7 +148,9 @@ export function LabelScanner() {
               );
             })}
           </div>
-          <div className={`verdict${verdict ? " is-in" : ""}`}>
+          <div
+            className={`verdict glass glass-dark glass-sq${verdict ? " is-in" : ""}`}
+          >
             <div className="verdict-score">
               <b>{score}</b>
               <span>flagged on this label</span>
@@ -162,7 +164,11 @@ export function LabelScanner() {
 
       <ul className="findings">
         {FINDINGS.map((item) => (
-          <li key={item.name} className="finding" data-level={item.level}>
+          <li
+            key={item.name}
+            className="finding glass glass-flat"
+            data-level={item.level}
+          >
             <span className="finding-dot" aria-hidden="true" />
             <span>
               <span className="finding-name">{item.name}</span>
