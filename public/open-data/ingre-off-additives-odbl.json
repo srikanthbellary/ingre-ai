@@ -1,0 +1,4188 @@
+[
+  {
+    "id": "off_0001",
+    "data_source": "openfoodfacts",
+    "name": "Monosodium phosphate",
+    "aliases": [
+      "Dihydrogenfosforečnan sodný",
+      "Natri đihiđrophotphat",
+      "磷酸二氢钠",
+      "Fosfat monosodic",
+      "リン酸二水素ナトリウム",
+      "Mononatrio fosfatas",
+      "Mononātrija fosfāts",
+      "Mononatriumphosphat",
+      "E339i",
+      "E339",
+      "Phosphate monosodique",
+      "Fosfato monosodico",
+      "Fosfat monosodiku",
+      "مونوسودیوم فوسفات",
+      "Natria fosfato",
+      "phosphates de sodium",
+      "fosfatos de sódio",
+      "natrijev fosfat",
+      "natriumfosfaten",
+      "Fosfat tas-sodju",
+      "Nátrium-foszfátok",
+      "Fosfat de sodiu",
+      "Naatriumfosfaat",
+      "Φωσφορικο νατριο",
+      "Natrio fosfatas",
+      "Fosforečnan sodný",
+      "Fosfati de sodi",
+      "Natri hiđrophotphat",
+      "Dinatriumfosfat",
+      "гидрофосфат натрия",
+      "Dinátrium-foszfát",
+      "Dinaatriumvesinikfosfaat",
+      "磷酸一氢钠",
+      "Dinatrio fosfatas",
+      "Fosfat disodiku",
+      "Dinatrijum fosfat",
+      "Динатриев фосфат",
+      "E339ii",
+      "Dinatrijev fosfat",
+      "இருசோடியம் பாசுபேட்டு",
+      "Fosforan trisodowy",
+      "Trinaatriumfosfaat",
+      "E339iii",
+      "Fosfat de trisodi",
+      "Trinatriumphosphat",
+      "Fosfato trisódico",
+      "Тринатриев фосфат",
+      "تری‌سدیم فسفات",
+      "Trinatrijum fosfat",
+      "Trinatriumfosfat",
+      "Trinatriumfosfaat",
+      "Ουδέτερο φωσφορικό νάτριο",
+      "Trinatriumfosfaatti"
+    ],
+    "category": "Food additive (emulsifier, humectant, preservative, sequestrant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E339 (emulsifier, humectant, preservative, sequestrant, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest",
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "France (ANSES)",
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E339. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e339",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0002",
+    "data_source": "openfoodfacts",
+    "name": "Pentasodium triphosphate",
+    "aliases": [
+      "e451i",
+      "Pentanatrijev trifosfat",
+      "Pentanatriumtrifosfat",
+      "Pentanaatriumtrifosfaat",
+      "Trifosforečnan pentasodný",
+      "Trifosfat pentasodiku",
+      "TPP",
+      "Pentanátrium-trifoszfát",
+      "Trifosforan pentasodowy",
+      "Trifosfat pentasodic",
+      "E 451",
+      "Trifosfato de pentasodio",
+      "Pentanatrio trifosfatas",
+      "Pentanātrija trifosfāts",
+      "trifosfați",
+      "Trifosfatos",
+      "三磷酸盐",
+      "Trifosfatlar",
+      "Trifosfat",
+      "Trifosfati",
+      "Trifosfaten",
+      "Tрифосфаты",
+      "Trifosfaatit",
+      "Tripolifosfatos",
+      "Trifosfāti",
+      "Trifosforany",
+      "Trifosfater",
+      "Pentakaliumtrifosfat",
+      "Pentakalio trifosfatas",
+      "Pentakaliumtriphosphat",
+      "Triphosphate pentapotassique",
+      "Trifosfato de pentapotasio",
+      "Пентакалиев трифосфат",
+      "Pentakalijev trifosfat",
+      "Trifosfato pentapotássico",
+      "Trifosfat pentapotasic",
+      "Trifosfat pentapotassiku",
+      "E451ii",
+      "Trifosfato pentapotassico",
+      "Pentakálium-trifoszfát",
+      "Pentakaaliumtrifosfaat"
+    ],
+    "category": "Food additive (emulsifier, humectant, sequestrant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E451 (emulsifier, humectant, sequestrant, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest",
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "France (ANSES)",
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E451. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e451",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0003",
+    "data_source": "openfoodfacts",
+    "name": "Calcium diglutamate",
+    "aliases": [
+      "Diglutamat tal-kalċju",
+      "Калциум диглутамат",
+      "Kalcium diglutamat",
+      "Οξινο γλουταμινικο ασβεστιο",
+      "Калциев диглутамат",
+      "Diglutamato de cálcio",
+      "Глутамат кальция",
+      "谷氨酸钙",
+      "Kalcio diglutamatas",
+      "Kalsiumdiglutamaatti",
+      "کلسیم دی گلوتامات",
+      "Diglutaminian wapnia",
+      "Kalcium-diglutamát",
+      "Diglutammato di calcio"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E623. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E623. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.3981"
+    ]
+  },
+  {
+    "id": "off_0004",
+    "data_source": "openfoodfacts",
+    "name": "Dipotassium phosphate",
+    "aliases": [
+      "ไดโพแทสเซียมฟอสเฟต",
+      "Οξινο φωσφορικο καλιο",
+      "Dikalio fosfatas",
+      "Phosphate dipotassique",
+      "Дикалиев фосфат",
+      "Dikalijum fosfat",
+      "E 340",
+      "Dikaliumphosphat",
+      "Dikālija fosfāts",
+      "Hydrogenfosforečnan draselný",
+      "dikalijev fosfat",
+      "Fosforečnan didraselný",
+      "Dikálium-foszfát",
+      "Kalia fosfato dubaza",
+      "Fosforan monopotasowy",
+      "Monokaliumfosfat",
+      "Monokaliumfosfaatti",
+      "monokalijev fosfat",
+      "Monokaliumphosphat",
+      "Δισοξινο φωσφορικο καλιο",
+      "Dihydrogenfosforečnan draselný",
+      "Phosphate monopotassique",
+      "Монокалиев фосфат",
+      "E340",
+      "Fosfato monopotásico",
+      "Fosfato monopotássico",
+      "Fosfat monopotasic",
+      "Kalium Fosfat",
+      "Fosfato di potassio",
+      "Fosforan potasu",
+      "Potasyum fosfat",
+      "Kaliumphosphat",
+      "Fosfat de potassi",
+      "Kalio fosfatai",
+      "Kaliumfosfaatti",
+      "Orthophosphates de potassium",
+      "kalijev fosfat",
+      "Fosfato de potássio",
+      "Fosfati tal-potassju",
+      "Trikālija fosfāts",
+      "Trikaliumfosfaatti",
+      "E340iii",
+      "Phosphate tripotassique",
+      "リン酸三カリウム",
+      "Trikálium-foszfát",
+      "டிரைபொட்டாசியம் பாசுபேட்டு",
+      "Φωσφορικο καλιο",
+      "fosfato tripotasico",
+      "Fosfat tat-tripotassju",
+      "Fosforečnan tridraselný",
+      "Trikaliumphosphat",
+      "磷酸鉀"
+    ],
+    "category": "Food additive (emulsifier, humectant, sequestrant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E340 (emulsifier, humectant, sequestrant, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest",
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "France (ANSES)",
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E340. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e340",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0005",
+    "data_source": "openfoodfacts",
+    "name": "Potassium bisulphite",
+    "aliases": [
+      "Wodorosiarczyn potasu",
+      "Kalijev bisulfit",
+      "Kālija bisulfīts",
+      "Sulfito ácido de potasio",
+      "Kaliumhydrogensulfit",
+      "Hydrogensiřičitan draselný",
+      "Bisulfit de potasiu",
+      "Kaliumwaterstofsulfiet synoniemen",
+      "Kalio bisulfitas",
+      "E 228",
+      "Kálium-hidrogén-szulfit",
+      "Калиев бисулфит",
+      "Bisulfit tal-potassju",
+      "Hidrogenossulfito de potássio"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E228. EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E228. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0006",
+    "data_source": "openfoodfacts",
+    "name": "Plant carotenes",
+    "aliases": [
+      "Carotènes végétaux",
+      "Rastlinski karoteni",
+      "Augu karotīni",
+      "Caroten din plante",
+      "Plantaardige carotenen",
+      "E160a",
+      "Növényi karotinok",
+      "Carotenos provenientes de plantas",
+      "Растителни каротини",
+      "Taimsed karoteenid",
+      "Caroteni vegetali",
+      "Plantecarotener",
+      "Karotener från växter",
+      "Φυτικα καροτενια",
+      "Beta-caroteno",
+      "Beta karoten",
+      "Β-καροτενιο",
+      "Beetakaroteen",
+      "Beta-Carotin",
+      "beta karoten",
+      "Beta karotenas",
+      "E 160a",
+      "Beetakaroteeni",
+      "Beta-karotên",
+      "Бета-каротин",
+      "Betakaroten",
+      "β-カロチン"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E160a (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E160a. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4434"
+    ]
+  },
+  {
+    "id": "off_0007",
+    "data_source": "openfoodfacts",
+    "name": "Silver",
+    "aliases": [
+      "Silber",
+      "Fidda",
+      "Sølv",
+      "Argento",
+      "Prata",
+      "Hopea",
+      "Αργυρος",
+      "Srebro",
+      "Striebro",
+      "Zilver",
+      "Ezüst",
+      "Stříbro",
+      "Sidabras",
+      "Сребро"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E174. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E174. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4364"
+    ]
+  },
+  {
+    "id": "off_0008",
+    "data_source": "openfoodfacts",
+    "name": "Processed eucheuma seaweed",
+    "aliases": [
+      "Τροποποιημενα φυκη eucheuma",
+      "Verwerkt eucheuma-wier",
+      "Verarbeitete Euchema-Algen",
+      "Käsitelty eucheuma-levä",
+      "Alga eucheuma transformada",
+      "Bearbetad eucheumaalg",
+      "Guma eucheuma / afinát řasy eucheuma",
+      "Algas eucheuma transformadas",
+      "Predelana morska alga eucheuma",
+      "prerađena morska alga euchema",
+      "Algă eucheuma prelucrată",
+      "E 407a",
+      "Feldolgozott euchema moszat",
+      "Apdoroti raudondumbliai"
+    ],
+    "category": "Food additive (carrier, emulsifier, humectant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E407a (carrier, emulsifier, humectant, stabiliser, thickener). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E407a. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5238"
+    ]
+  },
+  {
+    "id": "off_0009",
+    "data_source": "openfoodfacts",
+    "name": "Lutein",
+    "aliases": [
+      "Luteïne",
+      "E 161b",
+      "E161b",
+      "Λουτεϊνη",
+      "لوتين",
+      "لوتئین",
+      "לוטאין",
+      "Luteīns",
+      "Luteina",
+      "Лутеин",
+      "Luteină",
+      "Luteína",
+      "루테인",
+      "Luteoliini"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E161b (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E161b. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2010.1678"
+    ]
+  },
+  {
+    "id": "off_0010",
+    "data_source": "openfoodfacts",
+    "name": "Potassium benzoate",
+    "aliases": [
+      "Benzoesan potasu",
+      "Benzoato de potássio",
+      "Benzoato potásico",
+      "Benzoat de potasiu",
+      "Калиев бензоат",
+      "Kalijev benzoat",
+      "Benzoato di potassio",
+      "Benzoan draselný",
+      "Kalio benzoatas",
+      "Kaliumbensoat",
+      "Kālija benzoāts",
+      "Kálium-benzoát",
+      "Kaliumbenzoaat",
+      "Βενζοϊκο καλιο"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E212 (preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E212. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4433"
+    ]
+  },
+  {
+    "id": "off_0011",
+    "data_source": "openfoodfacts",
+    "name": "Aluminium silicate",
+    "aliases": [
+      "Alumīnija silikāts (kaolīns)",
+      "Alumiiniumsilikaat",
+      "Silicato de aluminio",
+      "Kremičitan hlinitý",
+      "Aluminiumsilikat",
+      "Silicate d'aluminium",
+      "Alumínium-szilikát",
+      "Alumiinisilikaatti",
+      "Krzemian glinu",
+      "E559",
+      "Aliuminio silikatas",
+      "Алуминиев силикат",
+      "Křemičitan hlinitý",
+      "E 559"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E559. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E559. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e559"
+    ]
+  },
+  {
+    "id": "off_0012",
+    "data_source": "openfoodfacts",
+    "name": "Sodium nitrate",
+    "aliases": [
+      "Nitrato sódico i.",
+      "Nitrat de sodiu i.",
+      "硝酸鈉",
+      "Nitrato di sodio",
+      "Nātrija nitrāts i.",
+      "E 251",
+      "Nitrat tas-sodju i.",
+      "Natriumnitrat",
+      "Dusičnan sodný i.",
+      "нитрат натрия",
+      "सोडियम नाइट्रेट",
+      "질산 나트륨",
+      "Naatriumnitraat i)",
+      "Nátrium-nitrát"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E251 (preservative). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E251. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4787"
+    ]
+  },
+  {
+    "id": "off_0013",
+    "data_source": "openfoodfacts",
+    "name": "Litholrubine bk",
+    "aliases": [
+      "Litolirubiini bk",
+      "Lithol-rubine BK",
+      "E 180",
+      "Litholrubin BK",
+      "Rubinpigment bk",
+      "Litolrubín bk",
+      "Litolrubīns bk",
+      "Litol-Rubina BK",
+      "Czerwień litolowa bk",
+      "Litolrubin BK",
+      "Litholrubin bk",
+      "Λιθορουμπινη βκ",
+      "Litolrubinas bk",
+      "Litolrubin bk"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E180. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E180. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2010.1586"
+    ]
+  },
+  {
+    "id": "off_0014",
+    "data_source": "openfoodfacts",
+    "name": "Monoammonium glutamate",
+    "aliases": [
+      "Monoammoniumglutamaatti",
+      "Monoamonija glutamāts",
+      "Glutamat monoamonic",
+      "Glutamat de monoamoni",
+      "Glutaman amónny",
+      "Monoammoniumglutamat",
+      "Monoammónium-glutamát",
+      "Glutammato di monoammonio",
+      "Glutaman amonný",
+      "Моноамониев глутамат",
+      "Ammooniumvesinikglutamaat",
+      "Monoamonio glutamatas",
+      "Glutamato de monoamonio",
+      "Monoamonijev glutamat"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E624. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E624. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.3981"
+    ]
+  },
+  {
+    "id": "off_0015",
+    "data_source": "openfoodfacts",
+    "name": "Plain caramel",
+    "aliases": [
+      "Màu caramel",
+      "Caramel simplu",
+      "color caramelo",
+      "Обикновен карамел",
+      "Caramelo simples",
+      "Obyčajný karamel",
+      "кәрәмил буягычы",
+      "E150a",
+      "Zuckerkulör",
+      "Karamella naturali",
+      "Tömény karamell",
+      "Sockerkulör",
+      "Caramello semplice",
+      "لون الكراميل"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E150a (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E150a. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2012.3030"
+    ]
+  },
+  {
+    "id": "off_0016",
+    "data_source": "openfoodfacts",
+    "name": "Calcium polyphosphate",
+    "aliases": [
+      "E452",
+      "Polifosfat tal-kalċju",
+      "E 452",
+      "e452iv",
+      "Polifosfat de calciu",
+      "Kaltsiumpolüfosfaat",
+      "Calciumpolyphosphat",
+      "Polifosfato de calcio",
+      "Polyfosforečnan vápenatý",
+      "Πολυφωσφορικο ασβεστιο",
+      "kalcijev polifosfat",
+      "Polyphosphate de calcium",
+      "Calciumpolyphosphater",
+      "Calciumpolyfosfaat",
+      "Polifosforan sodowo-wapniowy",
+      "Polifosfato de sódio e cálcio",
+      "Natriumkalsiumpolyfosfaatti",
+      "Natriumkalciumpolyfosfat",
+      "Natriumcalciumpolyphosphat",
+      "Nātrija kalcija polifosfāts",
+      "E452iii",
+      "Natrijev kalcijev polifosfat",
+      "Natriumcalciumpolyfosfaat",
+      "Натриево-калциев полифосфат",
+      "Polifosfat tal-kalċju u tas-sodju",
+      "Natrio kalcio polifosfatas",
+      "Natriumpolyphosphater",
+      "Natrijev polifosfat",
+      "Natriumpolyfosfaat",
+      "natrijev polifosfat",
+      "Polifosfat tas-sodju",
+      "Natriumpolyphosphat",
+      "Natriumpolyfosfaatti",
+      "Polifosfato di sodio",
+      "Natriumpolyfosfat",
+      "Nātrija polifosfāts",
+      "Natrio polifosfatas",
+      "Πολυφωσφορικο νατριο",
+      "Polifosforany",
+      "Polifosfatos",
+      "Polifosfāti",
+      "פוליפוספטים",
+      "Полифосфати",
+      "Polifosfati",
+      "Πολυφωσφορικά άλατα",
+      "Polifosfatai",
+      "Полифосфаты",
+      "Polifosfatlar",
+      "polifosfat",
+      "پلی فسفات",
+      "Polifosfat de potasiu",
+      "Polifosfat tal-potassju",
+      "Polifosforan potasu",
+      "Kaliumpolyphosphater",
+      "Kaaliumpolüfosfaat",
+      "Polyfosforečnan draselný",
+      "Polifosfato de potasio",
+      "Kaliumpolyphosphat",
+      "Kālija polifosfāts",
+      "Kalijev polifosfat",
+      "E452ii",
+      "Polyphosphate potassique"
+    ],
+    "category": "Food additive (emulsifier, humectant, sequestrant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E452 (emulsifier, humectant, sequestrant, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest",
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "France (ANSES)",
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E452. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e452",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0017",
+    "data_source": "openfoodfacts",
+    "name": "Polyoxyethylene sorbitan monopalmitate",
+    "aliases": [
+      "Monopalmitat de polioxietilenă sorbitan",
+      "Polyoksyetyleenisorbitaanimonopalmitaatti",
+      "Monopalmitato de polioxietileno sorbitano",
+      "Monopalmitate de polyoxyéthylène sorbitane",
+      "Μονοπαλμιτικη πολυοξυ-αιθυλενο-σορβιτανη",
+      "Polyoxyetylénsorbitanmonopalmitát",
+      "Polyoxyethylensorbitanmonopalmitát",
+      "Polioksietilēna sorbitāna monopalmitāts",
+      "Monopalmitynian polioksyetylenosorbitolu",
+      "Polüoksüetüleen sorbitaanmonopalmitaat",
+      "Polyoxyethylen-sorbitanmonopalmitat",
+      "E434",
+      "Polioksietilen sorbitan monopalmitat",
+      "Monopalmitato de sorbitán polioxietilenado"
+    ],
+    "category": "Food additive (emulsifier)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E434 (emulsifier). EFSA flags a moderate dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E434. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4152"
+    ]
+  },
+  {
+    "id": "off_0018",
+    "data_source": "openfoodfacts",
+    "name": "Calcium phosphates",
+    "aliases": [
+      "Калциеви фосфати",
+      "Fosfatos de cálcio",
+      "Fosfati di calcio",
+      "Kalciumfosfater",
+      "E341",
+      "Fosfatos de calcio",
+      "Fosfáty vápnika",
+      "Fosfat de calci",
+      "Kalcija fosfāti",
+      "Kalsiumfosfaatit",
+      "kalcijevi fosfati",
+      "CaPO4",
+      "Fosforan wapnia",
+      "Φωσφορικά ασβέστια",
+      "Monokalcijev fosfat",
+      "Monokalcij-fosfat",
+      "monokalcijev fosfat",
+      "リン酸二水素カルシウム",
+      "Дигидроортофосфат кальция",
+      "Monokalcium-foszfát",
+      "Δισοξινο φωσφορικο ασβεστιο",
+      "Монокалциев фосфат",
+      "Monokalciumfosfat",
+      "Kaltsiumdivesinikfosfaat",
+      "Monocalciumphosphat",
+      "Phosphate monocalcique",
+      "Fosfato monocálcico",
+      "Fosforan diwapniowy",
+      "E341ii",
+      "Phosphate dicalcique",
+      "فوسفات ثنائي الكالسيوم",
+      "Fosfat de dicalci",
+      "dikalcijev fosfat",
+      "Kaltsiumvesinikfosfaat",
+      "Dikalsiumfosfaatti",
+      "Fosfato dicalcico",
+      "Dikalcio fosfatas",
+      "Fosforečnan divápenatý",
+      "Dicanxi photphat",
+      "Dikalcija fosfāts",
+      "Кальций фосфаты",
+      "Trikaltsiumfosfaat",
+      "Fosforečnan trivápenatý",
+      "Φωσφορικο ασβεστιο",
+      "Fosforan trójwapniowy",
+      "Fosforečnan vápenatý",
+      "Trikalcio fosfatas",
+      "trikalsiumfosfat",
+      "Phosphate tricalcique",
+      "Ортофосфат кальцію",
+      "E341iii",
+      "Tricalciumfosfaat",
+      "Trikalsiumfosfaatti"
+    ],
+    "category": "Food additive (emulsifier, humectant, sequestrant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E341 (emulsifier, humectant, sequestrant, stabiliser, thickener). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E341. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674",
+      "https://world.openfoodfacts.org/additive/en:e341"
+    ]
+  },
+  {
+    "id": "off_0019",
+    "data_source": "openfoodfacts",
+    "name": "Disodium tartrate",
+    "aliases": [
+      "Vinan disodný",
+      "E335",
+      "Динатриев тартарат",
+      "Dinatrijev tartrat",
+      "Vínan disodný",
+      "Tartrato disodico",
+      "Dinátrium-tartarát",
+      "Dinatriumtartrat",
+      "Tartrate disodique",
+      "Dinatrio tartratas",
+      "Winian disodowy",
+      "Tartrat disodiku",
+      "Tartrato disódico",
+      "Dinatriumtartraat",
+      "Vinan monosodný",
+      "Tartrat monosodic",
+      "Naatriumvesiniktartraat",
+      "Οξινο τρυγικο νατριο",
+      "Мононатриев тартарат",
+      "Mononátrium-tartarát",
+      "Tartrato monosódico",
+      "Mononatriumtartrat",
+      "Vínan sodný",
+      "Tartarato monossódico",
+      "Winian monosodowy",
+      "Tartrato monosodico",
+      "Mononatrio tartratas",
+      "Tartrates de sodium",
+      "Tartrati de sodiu",
+      "Натриеви тартарати",
+      "Ταρτρικά αλάτα νατρίου",
+      "Natriumtartraat",
+      "Natriumtartraatti",
+      "Tartratos de sodio",
+      "Natriumtartrater",
+      "Tartrats de sodi",
+      "Natriumtartrate",
+      "Tartrati di sodio",
+      "Vinany sodné",
+      "Nātrija tartrāti"
+    ],
+    "category": "Food additive (sequestrant, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E335 (sequestrant, stabiliser). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E335. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e335"
+    ]
+  },
+  {
+    "id": "off_0020",
+    "data_source": "openfoodfacts",
+    "name": "Phosphoric acid",
+    "aliases": [
+      "Asid fosforik",
+      "фосфорна киселина",
+      "Ортофосфорна кислота",
+      "磷酸",
+      "பாசுபாரிக் காடி",
+      "فسفریک اسید",
+      "Fosforzuur",
+      "Ácido fosfórico",
+      "фусфыр әчелеге",
+      "Fosforihappo",
+      "Asid ffosfforig",
+      "Àcid fosfòric",
+      "Fosfata acido",
+      "Acido fosforico"
+    ],
+    "category": "Food additive (antioxidant, sequestrant)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E338 (antioxidant, sequestrant). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E338. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0021",
+    "data_source": "openfoodfacts",
+    "name": "Trisodium diphosphate",
+    "aliases": [
+      "Trinatrijev difosfat",
+      "Trinátrium-difoszfát",
+      "trinatrijev difosfat",
+      "E450",
+      "E 450",
+      "E450ii",
+      "Trinatriumdifosfaatti",
+      "Difosforan trisodowy",
+      "Hydrogendifosforečnan sodný",
+      "Trinatriumdifosfaat",
+      "Trinatrio difosfatas",
+      "Difosforečnan trisodný",
+      "Difosfato trisódico",
+      "Trinaatriumdifosfaat",
+      "Di-hidrogenodifosfato de cálcio",
+      "Kalcija dihidrogendifosfāts",
+      "Калциев дихидроген дифосфат",
+      "Kaltsiumdivesinikdifosfaat",
+      "Dihydrogendifosforečnan divápenatý",
+      "Diwodoro-difosforan wapnia",
+      "Δισοξινο πυροφωσφορικο ασβεστιο",
+      "Difosfat diacid de calciu",
+      "Kalciumdivätedifosfat",
+      "Diphosphate biacide de calcium",
+      "Calciumdihydrogendiphosphat",
+      "Di-idrogenodifosfato di calcio",
+      "Difosfatas",
+      "Дифосфати",
+      "דיפוספטים",
+      "Διφωσφορικά άλατα",
+      "دی فسفات",
+      "Difosfáty",
+      "Difosfaatit",
+      "Difosforany",
+      "Пирофосфаты",
+      "diphosphater",
+      "Défosfáit",
+      "Difosfati",
+      "Difosfato dissódico",
+      "дигидропирофосфат натрия",
+      "酸式焦磷酸钠",
+      "difosfat de disodi",
+      "Difosfat disodic",
+      "Dinatrio difosfatas",
+      "E450i",
+      "Difosforečnan disodný",
+      "Dinatriumdifosfat",
+      "دی‌سدیم پیروفسفات",
+      "disodique - Dihydrogendifosforečnan disodný",
+      "Natri đihiđropyrophotphat",
+      "تتراسدیوم پیروفسفات",
+      "Difosfato tetrasodico",
+      "Difosfato tetrassódico",
+      "Tetranátrium-difoszfát",
+      "Πυροφωσφορικο νατριο",
+      "Difosfat tetrasodiku",
+      "E450iii",
+      "E450III",
+      "Tetranaatriumdifosfaat",
+      "Natria pirofosfato",
+      "Difosfato tetrasódico",
+      "Difosforečnan sodný",
+      "Difosfat tetrapotassiku",
+      "Diphosphate tétrapotassique",
+      "Tetrakālija difosfāts",
+      "Tetrakaliumdifosfaat",
+      "Πυροφωσφορικο καλιο",
+      "Tetrakalijev difosfat",
+      "Difosforečnan tetradraselný",
+      "Tetrakaliumdifosfat",
+      "Difosforan tetrapotasowy",
+      "Tetrakálium-difoszfát",
+      "tetrakalijev difosfat",
+      "Difosfato di tetrapotassio",
+      "Dikalcijev difosfat",
+      "E450vi",
+      "Dikalcium-difoszfát",
+      "Dikaltsiumdifosfaat",
+      "Πυροφωσφορικο ασβεστιο",
+      "Dikalcija difosfāts",
+      "Difosforečnan divápenatý",
+      "Difosforan diwapniowy",
+      "Dikalciumdifosfat",
+      "Difosfat dikalċiku",
+      "Difosfato di dicalcio",
+      "Дикалциев дифосфат"
+    ],
+    "category": "Food additive (emulsifier, humectant, sequestrant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E450 (emulsifier, humectant, sequestrant, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest",
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "France (ANSES)",
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E450. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e450",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0022",
+    "data_source": "openfoodfacts",
+    "name": "Dipotassium tartrate",
+    "aliases": [
+      "E 336",
+      "Tartarato dipotássico",
+      "Dikálium-tartarát",
+      "پتاسیم تارترات",
+      "Tàrtic dipotàssic",
+      "Tartrato dipotásico",
+      "Tartrat dipotassiku",
+      "Tartrato dipotassico",
+      "Winian dipotasowy",
+      "Dikālija tartrāts",
+      "Дикалиев тартарат",
+      "E336",
+      "Tartrat dipotasic",
+      "E336ii",
+      "Vinany draselné",
+      "Kaliumtartrate",
+      "Kaliumtartrater",
+      "тартрат калия",
+      "Winiany potasu",
+      "Kalia tartrato",
+      "tartrati di potassio",
+      "tartratos de potasio",
+      "kaliumtartraatit",
+      "Kaliumtartraten",
+      "Tartrat de potassi",
+      "Kalijum tartrat",
+      "Monokaliumtartrat",
+      "Οξινο τρυγικο καλιο",
+      "Monokālija tartrāts",
+      "Monokalio tartratas",
+      "Winian monopotasowy",
+      "Tartrato monopotásico",
+      "E336i",
+      "Монокалиев тартарат",
+      "Tartrate monopotassique",
+      "Monokalijev tartrat",
+      "Vínan draselný",
+      "Monokaliumtartraat"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E336. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E336. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e336"
+    ]
+  },
+  {
+    "id": "off_0023",
+    "data_source": "openfoodfacts",
+    "name": "Aluminium sodium sulphate",
+    "aliases": [
+      "Sulfato de aluminio y sodio",
+      "Sulfate d'aluminium sodique",
+      "E521",
+      "Aluminiumnatriumsulfat",
+      "Siarczan glinowo-sodowy",
+      "Natrijev aluminijev sulfat",
+      "Alumiininatriumsulfaatti",
+      "Aluminiumnatriumsulfaat",
+      "Алуминиевонатриев сулфат",
+      "Sulfat de aluminiu și sodiu",
+      "Θειικο αργιλιονατριο",
+      "Aliuminio natrio sulfatas",
+      "E 521",
+      "Solfato di alluminio e sodio"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E521. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E521. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e521"
+    ]
+  },
+  {
+    "id": "off_0024",
+    "data_source": "openfoodfacts",
+    "name": "Sulphur dioxide",
+    "aliases": [
+      "dé-ocsaíd sulfair",
+      "Kükürd qazından təmizlənmə üsulları",
+      "E220",
+      "Belerang dioksida",
+      "이산화 황",
+      "Svovldioxid",
+      "二氧化硫",
+      "Anidride solforosa",
+      "E 220",
+      "גופרית דו-חמצנית",
+      "Sylffwr deuocsid",
+      "Oxid siričitý",
+      "Сулфур диоксид",
+      "svoveldioksid"
+    ],
+    "category": "Food additive (antioxidant, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E220 (antioxidant, preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E220. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0025",
+    "data_source": "openfoodfacts",
+    "name": "Sodium stearoyl-2-lactylate",
+    "aliases": [
+      "Στεατοϋλο-2-γαλακτυλικο νατριο",
+      "Natrijev stearoil-2-laktilat",
+      "Natriumstearoyl-2-laktylat",
+      "Stearoyl-2-mléčnan sodný",
+      "Natria stearoila laktilato",
+      "Natriumstearoyyli-2-laktylaatti",
+      "Estearoïl-2-lactilat de sodi",
+      "E481",
+      "Natrijum stearoil laktilat",
+      "E 481",
+      "Stéaroyl-2-lactylate de sodium",
+      "Natriumstearoyl-2-lactylat",
+      "natrijev stearoil-2-laktilat",
+      "Nātrija stearoil-2-laktilāts"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E481 (emulsifier, stabiliser). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E481. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2013.3144"
+    ]
+  },
+  {
+    "id": "off_0026",
+    "data_source": "openfoodfacts",
+    "name": "Sorbitan monopalmitate",
+    "aliases": [
+      "Сорбитан монопалмитат",
+      "Monopalmitate de sorbitane",
+      "E495",
+      "Monopalmitat de sorbitan",
+      "Μονοπαλμιτικη σορβιτανη",
+      "Sorbitaanmonopalmitaat",
+      "Monopalmitynian sorbitolu",
+      "Monopalmitat tas-sorbitan",
+      "Sorbitanmonopalmitat",
+      "Szorbitan-monopalmitát",
+      "Sorbitāna monopalmitāts",
+      "Monopalmitato de sorbitano",
+      "Sorbitan monopalmitat",
+      "Sorbitanmonopalmitát"
+    ],
+    "category": "Food additive (emulsifier)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E495 (emulsifier). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E495. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "hhttps://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4788"
+    ]
+  },
+  {
+    "id": "off_0027",
+    "data_source": "openfoodfacts",
+    "name": "Sodium sulphite",
+    "aliases": [
+      "Nātrija sulfīts",
+      "Natrijum sulfit",
+      "Solfito di sodio",
+      "Nátrium-szulfit",
+      "Натрий сульфити",
+      "亜硫酸ナトリウム",
+      "Natrio sulfitas",
+      "Sulfit de sodiu",
+      "Natrijev sulfit",
+      "Sulfito de sódio",
+      "Θειωδες νατριο",
+      "Siarczyn sodu",
+      "Sulfit de sodi",
+      "E 221"
+    ],
+    "category": "Food additive (antioxidant, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E221 (antioxidant, preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E221. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0028",
+    "data_source": "openfoodfacts",
+    "name": "Calcium sulphite",
+    "aliases": [
+      "Калциев сулфит",
+      "Sulfite de calcium",
+      "Kalcijev sulfit",
+      "Kalciumsulfit",
+      "Sulfit de calciu",
+      "E 226",
+      "Siričitan vápenatý",
+      "Siarczyn wapnia",
+      "Calciumsulfiet",
+      "Siřičitan vápenatý",
+      "Kaltsiumsulfit",
+      "Kalcium-szulfit",
+      "Solfito di calcio",
+      "Sulfito de cálcio"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E226. EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E226. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0029",
+    "data_source": "openfoodfacts",
+    "name": "Aluminium sulphate",
+    "aliases": [
+      "Síran hlinitý",
+      "E 520",
+      "Алуминиев сулфат",
+      "Siarczan glinu",
+      "Sulfate d'aluminium",
+      "Sulfato de alumínio",
+      "Sulfato de aluminio",
+      "Sulfat d'alumini",
+      "Alumínium-szulfát",
+      "Aluminiumsulfaat",
+      "Alumiiniumsulfaat",
+      "Alumiinisulfaatti",
+      "Alumīnija sulfāts",
+      "Sulfat tal-aluminju"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E520. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E520. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e520"
+    ]
+  },
+  {
+    "id": "off_0030",
+    "data_source": "openfoodfacts",
+    "name": "Sucrose esters of fatty acids",
+    "aliases": [
+      "Естери на мастни киселини и захароза",
+      "Rasvhapete sahharoosestrid",
+      "Sucroester",
+      "Sucroésteres de ácidos grasos",
+      "Saharozni estri maščobnih kislin",
+      "Sucroèster d'àcids grassos",
+      "Zuckerester von Speisefettsäuren",
+      "sukroseestere av fettsyrer",
+      "Estery sacharózy s mastnými kyselinami",
+      "Estry kwasów tłuszczowych i sacharozy",
+      "Saccharoseestere af fedtsyrer",
+      "E473",
+      "Riebalų rūgščių sacharozės esteriai",
+      "Estery sacharosy s mastnými kyselinami"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E473 (emulsifier, stabiliser). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E473. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2018.5087"
+    ]
+  },
+  {
+    "id": "off_0031",
+    "data_source": "openfoodfacts",
+    "name": "Ethyl lauroyl arginate",
+    "aliases": [
+      "Ethyllauroylarginat",
+      "에틸 라우로일 아르기네이트",
+      "Ethyl lauroyl arginát",
+      "Etyylilauryyliarginaatti",
+      "E243",
+      "Αιθυλική λαουροϋλ αργινίνη",
+      "Etil lauroil arginat",
+      "Ethyllauroylarginaat",
+      "Arginate d'éthyle laurique",
+      "E 243",
+      "Етил лауроил аргинат",
+      "Etil lauroil argināts",
+      "Etylu lauroilu arginian",
+      "Etil lauroil arginatas"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E243 (preservative). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E243. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5621"
+    ]
+  },
+  {
+    "id": "off_0032",
+    "data_source": "openfoodfacts",
+    "name": "Quinoline yellow",
+    "aliases": [
+      "Chinolinová žluť",
+      "Chinolino geltonasis",
+      "Chinolínová žltá",
+      "Groc de Quinoleína",
+      "Kinoliinikeltainen",
+      "E 104",
+      "Galben de chinolină",
+      "Quinolingult",
+      "Kinolingult",
+      "Hinolīna dzeltenais",
+      "Amarelo de quinoleína",
+      "Kinolinsárga",
+      "Хинолин жълто",
+      "Jaune de quinoléine"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E104 (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E104. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2009.1329"
+    ]
+  },
+  {
+    "id": "off_0033",
+    "data_source": "openfoodfacts",
+    "name": "Sorbitan monostearate",
+    "aliases": [
+      "Monostearynian sorbitolu",
+      "Monoestearat de sorbitan",
+      "Sorbitano monostearatas",
+      "Monostearato di sorbitano",
+      "Monoestearato de sorbitano",
+      "E491",
+      "Μονοστεατικη σορβιτανη",
+      "Monostéarate de sorbitane",
+      "Monostearat de sorbitan",
+      "E 491",
+      "Sorbitaanimonostearaatti",
+      "Sorbitan monostearat",
+      "Szorbitan-monosztearát",
+      "Sorbitanmonostearát"
+    ],
+    "category": "Food additive (emulsifier)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E491 (emulsifier). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E491. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "hhttps://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4788"
+    ]
+  },
+  {
+    "id": "off_0034",
+    "data_source": "openfoodfacts",
+    "name": "Calcium Disulphite",
+    "aliases": [
+      "Kalcium-diszulfit",
+      "Siarczyn potasu",
+      "Kalsiumdisulfiitti",
+      "Disulfitt tal-kalċju",
+      "E225",
+      "E 225",
+      "Disulfite de calcium",
+      "Kaliumsulfiet",
+      "Kalcijev disulfit",
+      "Disulfit de calciu",
+      "Kalciumdisulfit",
+      "disulfito cálcico",
+      "Kalcio disulfitas",
+      "Kaltsiumdisulfit"
+    ],
+    "category": "Food additive (antioxidant, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E225 (antioxidant, preservative). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E225. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e225"
+    ]
+  },
+  {
+    "id": "off_0035",
+    "data_source": "openfoodfacts",
+    "name": "Sucroglycerides",
+    "aliases": [
+      "Sacharozės gliceridai",
+      "Sacaridoglicéridos",
+      "Захароглицериди",
+      "Sacharoglicerydy",
+      "Sucroglicèrid",
+      "Sukrogliċeridi",
+      "Sucroglicéridos",
+      "E 474",
+      "Sokeriglyseridit",
+      "Sucrogliceridi",
+      "Saharozni gliceridi",
+      "Szaharózgliceridek",
+      "Sahharoglütseriidid",
+      "Sucroglycérides"
+    ],
+    "category": "Food additive (emulsifier)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E474 (emulsifier). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E474. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2004.106"
+    ]
+  },
+  {
+    "id": "off_0036",
+    "data_source": "openfoodfacts",
+    "name": "Ammonia caramel",
+    "aliases": [
+      "E150c",
+      "Ammooniumkaramell",
+      "E 150c",
+      "Амониев карамел",
+      "Caramel ammoniacal",
+      "Amonija karamele",
+      "Ammoniak-Zuckerkulör",
+      "Ammonieret karamel",
+      "Εναμμωνιο καραμελοχρωμα",
+      "Ammoniummenetelmän sokerikulööri",
+      "Ammóniás karamell",
+      "Caramello ammoniacale",
+      "amonijačni karamel",
+      "Сахарный колер III"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E150c (colour). EFSA flags a moderate dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E150c. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2012.3030"
+    ]
+  },
+  {
+    "id": "off_0037",
+    "data_source": "openfoodfacts",
+    "name": "Hydrochloric acid",
+    "aliases": [
+      "E 507",
+      "E507",
+      "Kyselina chlorovodíková",
+      "Saltsyra",
+      "Υδροχλωρικο οξυ",
+      "Saltsyre",
+      "Sālskābe",
+      "Sósav",
+      "Soolhape",
+      "Acid clorhidric",
+      "Klorovodikova kislina",
+      "Salzsäure",
+      "Acide chlorhydrique",
+      "Vandenilio chlorido rūgštis"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E507. EFSA flags a moderate dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E507. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5751"
+    ]
+  },
+  {
+    "id": "off_0038",
+    "data_source": "openfoodfacts",
+    "name": "Brown ht",
+    "aliases": [
+      "Pruun ht",
+      "Bruno ht",
+      "Braun ht",
+      "Ruskea ht",
+      "Hněď ht",
+      "Marró HT",
+      "Кафяво ht",
+      "Brūnais ht",
+      "Καστανο ht",
+      "Hnedá ht",
+      "Castanho ht",
+      "Brun chocolat HT",
+      "Bruin ht",
+      "Rudasis ht"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E155 (colour). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E155. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2014.3719"
+    ]
+  },
+  {
+    "id": "off_0039",
+    "data_source": "openfoodfacts",
+    "name": "Calcium tartrate",
+    "aliases": [
+      "Tartrato de calcio",
+      "Kalcija tartrāts",
+      "Tartrat tal-kalċju",
+      "Калциев тартарат",
+      "Tartrat de calciu",
+      "Vinan vápenatý",
+      "Kalcium-tartarát",
+      "Tartarato de cálcio",
+      "Winian wapnia",
+      "Tartrato di calcio",
+      "Calciumtartrat",
+      "Kaltsiumtartraat",
+      "E 354",
+      "Τρυγικο ασβεστιο"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E354. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E354. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e354"
+    ]
+  },
+  {
+    "id": "off_0040",
+    "data_source": "openfoodfacts",
+    "name": "Monopotassium glutamate",
+    "aliases": [
+      "Monokalio glutamatas",
+      "Glutamat monopotassiku",
+      "Monokaliumglutamaat",
+      "Glutamate monopotassique",
+      "Glutamato de monopotasio",
+      "Monokálium-glutamát",
+      "Monokaliumglutamaatti",
+      "Glutaman draselný",
+      "E 622",
+      "Glutamat monopotasic",
+      "Glutamato monopotássico",
+      "Kaaliumvesinikglutamaat",
+      "Monokaliumglutamat",
+      "Glutaminian monopotasowy"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E622. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E622. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.3981"
+    ]
+  },
+  {
+    "id": "off_0041",
+    "data_source": "openfoodfacts",
+    "name": "Polyoxyethylene sorbitan monolaurate",
+    "aliases": [
+      "Polyoksyetyleenisorbitaanimonolauraatti",
+      "Monolaurat de polioxietilenă sorbitan",
+      "E432",
+      "Полиоксиетилен сорбитан монолаурат",
+      "Polioksietileno sorbitano monolauratas",
+      "Monolaurato di poliossietilene sorbitano",
+      "Polyoxyethylen(20)sorbitanmonolaurat",
+      "Polyoxyethylen-sorbitanmonolaurat",
+      "Μονολαυρικη πολυοξυ-αιθυλενο-σορβιτανη",
+      "Polyoxyethylensorbitanmonolaurát",
+      "Polioksietilēna sorbitāna monolaurāts)",
+      "Polüoksüetüleen sorbitaanmonolaureaat",
+      "Polioxietilén-szorbitan-monolaurát",
+      "Monolaurato de sorbitán polioxietilenado"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E432 (emulsifier, stabiliser). EFSA flags a moderate dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E432. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4152"
+    ]
+  },
+  {
+    "id": "off_0042",
+    "data_source": "openfoodfacts",
+    "name": "Beta-cyclodextrine",
+    "aliases": [
+      "Beta-ciklodekstrino",
+      "Beta-Cyclodextrin",
+      "Beta-ciklodekstrīns",
+      "Beta-ciclodestrina",
+      "Beeta-tsüklodekstriin",
+      "Βήτα-κυκλοδεξτρίνη",
+      "E 459",
+      "ベータ-シクロデキストリン",
+      "Beta-cyklodextrín",
+      "Beta-ciclodextrină",
+      "Бета-циклодекстрин",
+      "β-环糊精",
+      "Beta-Siklodekstrin",
+      "베타-사이클로덱스트린"
+    ],
+    "category": "Food additive (carrier, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E459 (carrier, stabiliser, thickener). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E459. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4628"
+    ]
+  },
+  {
+    "id": "off_0043",
+    "data_source": "openfoodfacts",
+    "name": "Calcium aluminium silicate",
+    "aliases": [
+      "Calciumaluminiumsilicat",
+      "Πυριτικο αργιλιασβεστιο",
+      "Silicato de alumínio e cálcio",
+      "Kremičitan hlinitovápenatý",
+      "E556",
+      "Калциевоалуминиев силикат",
+      "Kalcijev aluminijev silikat",
+      "Kalciumaluminiumsilikat",
+      "Silikat tal-kalċju u tal-aluminju",
+      "Kalcija alumīnija silikāts",
+      "Calciumaluminiumsilicaat",
+      "Kalcium-alumínium-szilikát",
+      "Křemičitan vápenato-hlinitý",
+      "Krzemian glinowo-wapniowy"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E556. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E556. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e556"
+    ]
+  },
+  {
+    "id": "off_0044",
+    "data_source": "openfoodfacts",
+    "name": "Iron oxides and iron hydroxides",
+    "aliases": [
+      "Òxids i hidròxids de ferro",
+      "Tlenki żelaza i wodorotlenki żelaza",
+      "Οξειδια του σιδηρου και υδροξειδια του σιδηρου συνώνυμα",
+      "Järnoxider och järnhydroxider",
+      "Ossidi di ferro e idrossidi di ferro",
+      "Raudoksiidid ja raudhüdroksiidid",
+      "E172",
+      "Óxidos e hidróxidos de hierro",
+      "Oxizi și hidroxizi de fier",
+      "Ijzeroxiden en -hydroxiden",
+      "Oxyde et hydroxyde de fer",
+      "Dzelzs oksīdi un dzelzs hidroksīdi",
+      "Geležies oksidai ir geležies hidroksidai",
+      "Oxidy a hydroxidy železa"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E172 (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E172. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e172"
+    ]
+  },
+  {
+    "id": "off_0045",
+    "data_source": "openfoodfacts",
+    "name": "Potassium sorbate",
+    "aliases": [
+      "E202",
+      "Sorbat de potassi",
+      "kaliumsorbat",
+      "Kalia sorbato",
+      "Kaliumsorbaat",
+      "پتاسیم سوربات",
+      "Sorbat de potasiu",
+      "Kalij sorbat",
+      "Сорбат калію",
+      "kalijev sorbat",
+      "Sorbinian potasu",
+      "אשלגן סורבט",
+      "Kaaliumsorbaat",
+      "kalijum-sorbat"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E202 (preservative). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E202. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2015.4144"
+    ]
+  },
+  {
+    "id": "off_0046",
+    "data_source": "openfoodfacts",
+    "name": "Green s",
+    "aliases": [
+      "Зелено s",
+      "Зелений S",
+      "Grön s",
+      "Zöld S",
+      "Verde s",
+      "Zaļais s",
+      "uaine aigéadach lonrach BS",
+      "E 142",
+      "Aħdar s",
+      "Zieleń s",
+      "Žaliasis s",
+      "E142",
+      "سبز اس",
+      "Zeleň s"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E142. EFSA flags a moderate dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E142. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2010.1851"
+    ]
+  },
+  {
+    "id": "off_0047",
+    "data_source": "openfoodfacts",
+    "name": "Potassium aluminium silicate",
+    "aliases": [
+      "Kalijev aluminijev silikat",
+      "Kremičitan hlinitodraselný",
+      "Kaliumaluminiumsilikat",
+      "Kaliumaluminiumsilicaat",
+      "Silicato di potassio e alluminio",
+      "Kalio aliuminio silikatas",
+      "Silicat de aluminiu și potasiu",
+      "Kaliumaluminiumsilicat",
+      "Křemičitan draselno-hlinitý",
+      "Калиевоалуминиев силикат",
+      "Kālija alumīnija silikāts",
+      "Kaaliumalumiiniumsilikaat",
+      "Silikat tal-potassju u tal-aluminju",
+      "Silicate alumino-potassique"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E555. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E555. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e555"
+    ]
+  },
+  {
+    "id": "off_0048",
+    "data_source": "openfoodfacts",
+    "name": "Calcium benzoate",
+    "aliases": [
+      "E 213",
+      "Benzoát vápenatý",
+      "Benzoat de calciu",
+      "Калциев бензоат",
+      "Benzoan vápenatý",
+      "Kalcium-benzoát",
+      "Βενζοϊκο ασβεστιο",
+      "Benzoato de cálcio",
+      "Benzoate de calcium",
+      "Benżoat tal-kalċju",
+      "Calciumbenzoat",
+      "Benzoato di calcio",
+      "Kalcija benzoāts",
+      "Kaltsiumbensoaat"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E213 (preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E213. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4433"
+    ]
+  },
+  {
+    "id": "off_0049",
+    "data_source": "openfoodfacts",
+    "name": "Ethyl ester of beta-apo-8'-carotenic acid (C 30)",
+    "aliases": [
+      "Ester éthylique de l'acide -apocaroténique-8'",
+      "Beta-apo-8'-karoteenihapon etyyliesteri",
+      "β-apo-8′-karotenian etylu",
+      "Béta-apo-8'-karoténsav-etil észter",
+      "E 160f",
+      "Beta-8'-caroteenzure ethylester",
+      "E160f",
+      "Етилов естер на бета-апо-8'-каротенова киселина (C 30)",
+      "ベータ-アポ-8'-カロテン酸エチルエステル (C 30)",
+      "Éster etílico do ácido beta-apo-8'-carotênico (C 30)",
+      "베타-아포-8'-카로틴산 에틸 에스테르 (C 30)",
+      "Estere etilico dell'acido beta-apo-8'-carotenico (C 30)",
+      "Этиловый эфир бета-апо-8'-каротиновой кислоты (C 30)",
+      "β-阿朴-8'-胡萝卜酸乙酯 (C 30)"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E160f (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E160f. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2014.3492"
+    ]
+  },
+  {
+    "id": "off_0050",
+    "data_source": "openfoodfacts",
+    "name": "Caustic sulphite caramel",
+    "aliases": [
+      "Карамел основен сулфит",
+      "Caramelo sulfítico cáustico",
+      "Emäksinen sulfiittisokerikulööri",
+      "Καυστικο θειωδες καραμελοχρωμα",
+      "Leeliseline sulfitkaramell",
+      "Caramello solfito-caustico",
+      "Kaustisk sulfiteret karamel",
+      "E150b",
+      "Šarminė sulfitinė karamelė",
+      "Kaustisk sulfitert sukkerkulør",
+      "Alkalni sulfitni karamel",
+      "Sulfīta karamele",
+      "Karmel siarczynowy",
+      "E 150b"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E150b (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E150b. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2011.2004"
+    ]
+  },
+  {
+    "id": "off_0051",
+    "data_source": "openfoodfacts",
+    "name": "Copper complexes of chlorophyllins",
+    "aliases": [
+      "Bakrovi kompleksi klorofilinov",
+      "E141ii",
+      "Kopercomplexen van chlorofylinen",
+      "E 141",
+      "Complessi rameici delle clorofilline",
+      "Kopparkomplex av klorofylliner",
+      "Hlorofilīnu vara kompleksi",
+      "Kupferkomplexe der Chlorophylline",
+      "Chlorophyllin-kobber-kompleks",
+      "Kompleksy miedziowe chlorofilin",
+      "Медни комплекси на хлорофилини",
+      "Complexos cúpricos de clorofilinas",
+      "Klorofülliinide vasekompleksid",
+      "E141",
+      "Complejos cúpricos de clorofilas",
+      "Meďnaté komplexy chlorofylov",
+      "Chlorophyll-kobber-kompleks",
+      "Kopparkomplex av klorofyller",
+      "Complexe de cupru ale clorofilelor",
+      "Hlorofilu vara kompleksi",
+      "Měďnaté komplexy chlorofylů",
+      "Complessi rameici delle clorofille",
+      "Συμπλοκα των χλωροφυλλων με χαλκο",
+      "Kupferkomplexe der Chlorophylle",
+      "E141i",
+      "Bakrovi kompleksi klorofilov",
+      "Kopercomplexen van chlorophyllen",
+      "Klorofylliinikuparikompleksit ja Klorofylli-kuparikompleksi",
+      "Kompleksy miedziowe chlorofili i chlorofilin",
+      "Complejos cúpricos de clorofilas y clorofilinas",
+      "Klorofillok és klorofillinek rézkomplexei",
+      "Complexe de cupru ale clorofilelor și clorofilinei",
+      "Kupferhaltigen Komplexe der Chlorophylle und Chlorophylline",
+      "Complexos cúprics de clorofil i clorofilines",
+      "Complexe cuivrique des chlorophylles et des chlorophyllines",
+      "Complessi rameici delle clorofille e delle clorofilline",
+      "bakreni kompleksi klorofila i klorofilina",
+      "Mědnaté komplexy chlorofylů a chlorofylinů"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E141 (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E141. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4151"
+    ]
+  },
+  {
+    "id": "off_0052",
+    "data_source": "openfoodfacts",
+    "name": "Sorbitan monooleate",
+    "aliases": [
+      "Sorbitāna monooleāts",
+      "E494",
+      "Μονοελαϊκη σορβιτανη",
+      "Monooleinian sorbitolu",
+      "Sorbitaanmonoleaat",
+      "Sorbitanmonooleat",
+      "Monooleat tas-sorbitan",
+      "Sorbitaanimono-oleaatti",
+      "Monooleat de sorbitan",
+      "Сорбитан моноолеат",
+      "Szorbitan-monooleát",
+      "E 494",
+      "Sorbitanmonooleát",
+      "Sorbitano monoleatas"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E494 (emulsifier, stabiliser). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E494. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "hhttps://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4788"
+    ]
+  },
+  {
+    "id": "off_0053",
+    "data_source": "openfoodfacts",
+    "name": "Sodium metabisulphite",
+    "aliases": [
+      "E 223",
+      "بيروكبريتيت الصوديوم",
+      "Nátrium-metabiszulfit",
+      "Metabissulfito de sódio",
+      "Natriummetabisulfit",
+      "Disiričitan sodný",
+      "Natria pirosulfito",
+      "Metabisulfit de sodiu",
+      "Նատրիումի պիրոսուլֆիտ",
+      "natrijev metabisulfit",
+      "Μεταδιθειωδες νατριο",
+      "Metabisolfito di sodio",
+      "Natriumdisulfiitti",
+      "E223"
+    ],
+    "category": "Food additive (antioxidant, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E223 (antioxidant, preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E223. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0054",
+    "data_source": "openfoodfacts",
+    "name": "Microcrystalline cellulose",
+    "aliases": [
+      "Mikrokrystalická celulosa",
+      "Cellulosa microcristallina",
+      "Cellulose microcristalline",
+      "E 460",
+      "Mikrokristályos cellulóz",
+      "Μικροκρυσταλλικη κυτταρινη",
+      "Микрокристална целулоза",
+      "Mikrokristalna celuloza",
+      "Celuloză microcristalină",
+      "Microkristallijne cellulose",
+      "Mikrokrystallinsk cellulose",
+      "Mikrokristalne tselluloos",
+      "Mikrokryštalická celulóza",
+      "Mikrokristalinė celiuliozė"
+    ],
+    "category": "Food additive (carrier, emulsifier, humectant, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E460 (carrier, emulsifier, humectant, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E460. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e460"
+    ]
+  },
+  {
+    "id": "off_0055",
+    "data_source": "openfoodfacts",
+    "name": "Polyglycerol esters of fatty acids",
+    "aliases": [
+      "Zsírsavak poliglicerin-észterei",
+      "Èster poliglicèrid d'àcids grassos",
+      "Ésteres poliglicéricos de ácidos grasos",
+      "Полиглицериновые эфиры жирных кислот",
+      "E475",
+      "Taukskābju poliglicerīna esteri",
+      "Полиглицеролови естери на мастни киселини",
+      "Rasvahappojen polyglyseroliesterit",
+      "Riebalų rūgščių poliglicerolio esteriai",
+      "Polyglycerolestrar av fettsyror",
+      "Polyglycerinester von Speisefettsäuren",
+      "Polyglycerolestere af fedtsyrer",
+      "Estery polyglycerolu s mastnými kyselinami",
+      "Πολυγλυκεριδια λιπαρων οξεων"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E475 (emulsifier, stabiliser). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E475. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e475"
+    ]
+  },
+  {
+    "id": "off_0056",
+    "data_source": "openfoodfacts",
+    "name": "Patent blue v",
+    "aliases": [
+      "פטנט כחול V",
+      "Patentblau V",
+      "Patentblauw v",
+      "Патент синьо v",
+      "E 131",
+      "Patenttisininen v",
+      "Patentzilais v",
+      "Albastru patent v",
+      "Patentná modrá v",
+      "Patentkék V",
+      "Blau patentat V",
+      "Bleu patenté V",
+      "Azul patentado V",
+      "Πατεντ μπλε v"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E131. EFSA flags a moderate dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E131. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2013.2818"
+    ]
+  },
+  {
+    "id": "off_0057",
+    "data_source": "openfoodfacts",
+    "name": "Potassium metabisulphite",
+    "aliases": [
+      "Μεταδιθειωδες καλιο",
+      "ميتابيسلفيت البوتاسيوم",
+      "Disulfite de potassium",
+      "Metabisulfit de potassi",
+      "پتاسیم متابی‌سولفیت",
+      "Kaaliumdisulfit",
+      "Kálium-metabiszulfit",
+      "Kaliumdisulfit",
+      "Metabisulfito potásico",
+      "Metabissulfito de potássio",
+      "Kaliumdisulfiitti",
+      "Kaliummetabisulfit",
+      "Kalijum metabisulfit",
+      "Disiřičitan draselný"
+    ],
+    "category": "Food additive (antioxidant, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E224 (antioxidant, preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E224. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0058",
+    "data_source": "openfoodfacts",
+    "name": "Potassium sodium tartrate",
+    "aliases": [
+      "Winian potasowo-sodowy",
+      "Tartrate double de sodium et de potassium",
+      "Vínan draselno-sodný",
+      "Tartrato di potassio e di sodio",
+      "Kálium-nátrium-tartarát",
+      "E 337",
+      "Калиево-натриев тартарат",
+      "Kalio natrio tartratas",
+      "Τρυγικο καλιονατριο",
+      "Tartrat de sodiu și potasiu",
+      "Natrijev kalijev tartrat",
+      "Kaaliumnaatriumtartraat",
+      "Kaliumnatriumtartrat",
+      "Vinan sodno-draselný"
+    ],
+    "category": "Food additive (sequestrant, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E337 (sequestrant, stabiliser). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E337. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e337"
+    ]
+  },
+  {
+    "id": "off_0059",
+    "data_source": "openfoodfacts",
+    "name": "Sorbitan monolaurate",
+    "aliases": [
+      "Sorbitaanmonolauraat",
+      "Monolaurate de sorbitane",
+      "Monolaurato di sorbitano",
+      "Μονολαυρικη σορβιτανη",
+      "Sorbitaanimonolauraatti",
+      "Monolawrat tas-sorbitan",
+      "Monolaurato de sorbitano",
+      "Sorbitano monolauratas",
+      "Sorbitanmonolaurát",
+      "Sorbitāna monolaurāts",
+      "E493",
+      "E 493",
+      "Sorbitan monolaurat",
+      "Monolaurat de sorbitan"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E493 (emulsifier, stabiliser). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E493. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "hhttps://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4788"
+    ]
+  },
+  {
+    "id": "off_0060",
+    "data_source": "openfoodfacts",
+    "name": "Calcium stearoyl-2-lactylate",
+    "aliases": [
+      "Kaltsiumstearoüül-2-laktülaat",
+      "Калциев стераоил-2-лактилат",
+      "Stéaroyl-2-lactylate de calcium",
+      "Kalcijev stearoil-2-laktilat",
+      "E 482",
+      "Estearoil-2-lactilato de calcio",
+      "Stearoil-2-lattilato di calcio",
+      "Stearoyl-2-laktylát vápenatý",
+      "Kalcio stearoil-2-laktilatas",
+      "Στεατοϋλο-2-γαλακτυλικο ασβεστιο",
+      "Kalsiumstearoyyli-2-laktylaatti",
+      "Stearoyl-2-mléčnan vápenatý",
+      "Calciumstearoyl-2-lactylaat",
+      "Kalcium-sztearoil-2-laktilát"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E482 (emulsifier, stabiliser). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E482. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2013.3144"
+    ]
+  },
+  {
+    "id": "off_0061",
+    "data_source": "openfoodfacts",
+    "name": "Sulphite ammonia caramel",
+    "aliases": [
+      "Amonija sulfīta karamele",
+      "Caramelo sulfítico de amónia",
+      "Карамел амониев сулфит",
+      "карамель сульфата аммиака",
+      "Karamella tal-ammonja tas-sulfit",
+      "Εναμμωνιο θειωδες καραμελοχρωμα",
+      "Caramelo de sulfito amónico",
+      "Amonijev sulfitni karamel",
+      "Sulfitinė amoniakinė karamelė",
+      "Ammonieret sulfiteret karamel",
+      "Caramel au sulfite d'ammonium",
+      "ammoniaksulfitprocessen",
+      "Amoniak-sulfitový karamel",
+      "Szulfitos ammóniás karamell"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E150d (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E150d. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2012.3030"
+    ]
+  },
+  {
+    "id": "off_0062",
+    "data_source": "openfoodfacts",
+    "name": "Aluminium potassium sulphate",
+    "aliases": [
+      "Aluminiumkaliumsulfat",
+      "Sulfato de aluminio y potasio",
+      "Siarczan glinowo-potasowy",
+      "Alumīnija kālija sulfāts",
+      "Alumiiniumkaaliumsulfaat",
+      "Алуминиевокалиев сулфат",
+      "Aluminiumkaliumsulfaat",
+      "E 522",
+      "Θειικο αργιλιοκαλιο",
+      "Sulfate d'aluminium potassique",
+      "Alumiinikaliumsulfaatti",
+      "Sulfat tal-aluminju u tal-potassju",
+      "Alumínium-kálium-szulfát",
+      "Solfato di alluminio e potassio"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E522. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E522. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e522"
+    ]
+  },
+  {
+    "id": "off_0063",
+    "data_source": "openfoodfacts",
+    "name": "Sodium ferrocyanide",
+    "aliases": [
+      "Ferrocianur de sodi",
+      "E535",
+      "Żelazocyjanek sodu",
+      "Ferrocianeto de sódio",
+      "Ferokyanid sodný",
+      "Natriumferrosyanidi",
+      "Nātrija ferocianīds",
+      "Ferrocyanure de sodium",
+      "Natriumferrocyanid",
+      "Ferroċjanur tas-sodju",
+      "Ferocianură de sodiu",
+      "Nátrium-ferro-cianid",
+      "Ferrocianuro de sodio",
+      "Ferrocianuro di sodio"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E535. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E535. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e535"
+    ]
+  },
+  {
+    "id": "off_0064",
+    "data_source": "openfoodfacts",
+    "name": "Sorbic acid",
+    "aliases": [
+      "Kyselina sorbová",
+      "sorbinsyre",
+      "E 200",
+      "Acido sorbico",
+      "Sorbik asit",
+      "Sorbiinhape",
+      "Сорбінова кислота",
+      "حمض السوربيك",
+      "Sorbinska kiselina",
+      "Aigéad sorbach",
+      "Sorbinsyre",
+      "山梨酸",
+      "Sorbinska kislina",
+      "ソルビン酸"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E200 (preservative). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E200. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2015.4144"
+    ]
+  },
+  {
+    "id": "off_0065",
+    "data_source": "openfoodfacts",
+    "name": "Potassium nitrate",
+    "aliases": [
+      "Կալիումի նիտրատ",
+      "Salitre",
+      "E252",
+      "ดินประสิว",
+      "Kalio nitratas",
+      "kalia nitrato",
+      "Калијум нитрат",
+      "Kalijev nitrat",
+      "ယမ်းစိမ်း",
+      "질산 칼륨",
+      "硝酸钾",
+      "Nitrato di potassio",
+      "Nitrato de potássio",
+      "Nitrato potásico"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E252 (preservative). EFSA flags a high dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E252. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4787"
+    ]
+  },
+  {
+    "id": "off_0066",
+    "data_source": "openfoodfacts",
+    "name": "Potassium ferrocyanide",
+    "aliases": [
+      "ферроцианид калия",
+      "E536",
+      "E 536",
+      "Kalio ferocianidas",
+      "Kaaliumheksatsüanoferraatii",
+      "Kaliumferrosyanidi",
+      "Ferrocyanure de potassium",
+      "Kaliumferrocyanid",
+      "Hexakyanoželeznatan draselný",
+      "Ferrocianuro di potassio",
+      "Ferrocianur de potassi",
+      "Σιδηροκυανιουχο καλιο",
+      "Kaliumhexacyanoferraatii",
+      "Ferocianură de potasiu"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E536. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E536. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e536"
+    ]
+  },
+  {
+    "id": "off_0067",
+    "data_source": "openfoodfacts",
+    "name": "Dimagnesium phosphate",
+    "aliases": [
+      "E 343",
+      "Dimagnesiumfosfat",
+      "Dimagnija fosfāts",
+      "E343ii",
+      "E343",
+      "Dimagnesiumfosfaatti",
+      "Димагнезиев фосфат",
+      "Dimagnezijum fosfat",
+      "Fosforečnan dihorečnatý",
+      "Fosfato de dimagnesio",
+      "Dimagnesiumfosfaat",
+      "Dimagnio fosfatas",
+      "dimagnezijev fosfat",
+      "гидроортофосфат магния",
+      "Fosfati di magnesio",
+      "Fosfat de magnesi",
+      "Magnesiumfosfaten",
+      "Fosfați de magneziu",
+      "Magnio fosfatai",
+      "Fosfatos de magnésio",
+      "Magnija fosfāti",
+      "Fosforany magnezu",
+      "Phosphates de magnésium",
+      "Magnézium-foszfátok",
+      "Магнезиеви фосфати",
+      "Magnesiumfosfater",
+      "Monomagnézium-foszfát",
+      "Monomagnija fosfāts",
+      "Fosfat monomagnezic",
+      "Monomagnesiumfosfaatti",
+      "Fosfat monomanjeżiku",
+      "Δισοξινο φωσφορικο μαγνησιο",
+      "Fosfato de monomagnési",
+      "Magneesiumdivesinikfosfaat",
+      "磷酸二氢镁",
+      "فوسفات المغنسيوم",
+      "Magnezijum fosfat",
+      "Dihydrogenfosforečnan hořečnatý"
+    ],
+    "category": "Food additive (stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E343 (stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest",
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "France (ANSES)",
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E343. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e343",
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5674"
+    ]
+  },
+  {
+    "id": "off_0068",
+    "data_source": "openfoodfacts",
+    "name": "Glutamic acid",
+    "aliases": [
+      "Acide glutamique",
+      "Glutamiinihappo",
+      "Acido glutammico",
+      "Ácido glutámico",
+      "Kyselina glutamová",
+      "Acid glutamic",
+      "Glutamīnskābe",
+      "E620",
+      "Глутаминова киселина",
+      "Glutaminsyre",
+      "Ácido glutâmico",
+      "Aċidu glutamiku",
+      "Γλουταμινικο οξυ",
+      "E 620"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E620. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E620. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.3981"
+    ]
+  },
+  {
+    "id": "off_0069",
+    "data_source": "openfoodfacts",
+    "name": "L(+)-tartaric acid",
+    "aliases": [
+      "Tartrata acido",
+      "اسید تارتاریک",
+      "vinska",
+      "L(+)-Weinsäure",
+      "Acide L-tartrique",
+      "Vinska kislina (l (+) -)",
+      "Tartarik asit",
+      "L(+)-borkősav",
+      "Aigéad tartarach",
+      "Asam tartarat",
+      "L(+)-acido tartarico",
+      "టార్టారిక్ ఆమ్లం",
+      "টারটারিক অ্যাসিড",
+      "E334"
+    ],
+    "category": "Food additive (antioxidant, sequestrant)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E334 (antioxidant, sequestrant). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E334. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e334"
+    ]
+  },
+  {
+    "id": "off_0070",
+    "data_source": "openfoodfacts",
+    "name": "Calcium bisulphite",
+    "aliases": [
+      "Bisulfit tal-kalċju",
+      "Kalciumvätesulfit",
+      "Hidrogenossulfito de cálcio",
+      "Calcio bisolfito",
+      "Οξινο θειωδες ασβεστιο",
+      "Sulfito ácido de calcio",
+      "Sulfite acide de calcium",
+      "Calciumwaterstofsulfiet synoniemen",
+      "Calciumhydrogensulfit",
+      "E227",
+      "Калциев бисулфит",
+      "Bisulfit de calciu",
+      "Kalcijev bisulfit",
+      "Hydrogensiričitan vápenatý"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E227. EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E227. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0071",
+    "data_source": "openfoodfacts",
+    "name": "Steviol glycosides",
+    "aliases": [
+      "Steviolglycoside",
+      "E960",
+      "Steviol glikozidi",
+      "Steviolglykosider",
+      "Steviol-glykosidy",
+      "Steviolglycosider",
+      "சிடீவியால் கிளைகோசைடு",
+      "Szteviol-glikozidok szinonimák",
+      "Glikozydy stewiolowe",
+      "Glikosidi tal-istevjol",
+      "Stevioliglykosidit",
+      "Glicòsid d'esteviol",
+      "E 960",
+      "Glucósidos de esteviol"
+    ],
+    "category": "Food additive (sweetener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E960 (sweetener). EFSA flags a moderate dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E960. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4146"
+    ]
+  },
+  {
+    "id": "off_0072",
+    "data_source": "openfoodfacts",
+    "name": "Beta-apo-8′-carotenal (c30)",
+    "aliases": [
+      "Beta-apo-8′-Carotinal (C30)",
+      "Β-apo-8′-karotenal (c 30)",
+      "Β-απο-8′-καροτεναλη (c30)",
+      "beta-apo-8'-carotenal",
+      "Apocaroténal 8'",
+      "E 160e",
+      "Beta-apo-8′-karotenaali (c30)",
+      "Beta-apo-8′-karotenalis (c30)",
+      "Beta-apo-8′-karotenal (c 30)",
+      "Beta-apo-8′-carotenal(c30)",
+      "Βeta-apo-8′-karotenāls (c30)",
+      "E160e",
+      "Beta-apo-8′-karotenal (c30)",
+      "Бета-апо-8′-каротенал (c30)"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E160e (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E160e. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2014.3492"
+    ]
+  },
+  {
+    "id": "off_0073",
+    "data_source": "openfoodfacts",
+    "name": "Polyoxyethylene sorbitan tristearate",
+    "aliases": [
+      "E436",
+      "Tristéarate de polyoxyéthylène sorbitane",
+      "Polyoxyethyleensorbitaantristearaat",
+      "Polioksietilen sorbitan tristearat",
+      "Tristearat tal-poliossietilen sorbitan",
+      "Polioksietilēna sorbitāna tristearāts",
+      "Polyoxyethylen(20)sorbitantristearat",
+      "Polioksietileno sorbitano tristearatas",
+      "Polioxietilén-szorbitan-trisztearát",
+      "Polyoxyethylen-sorbitantristearat",
+      "Triestearat de sorbitan polioxietilenat",
+      "Polyoxyethylensorbitantristearát",
+      "Triestearato de polioxietileno sorbitano",
+      "Tristearat de polioxietilenă sorbitan"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E436 (emulsifier, stabiliser). EFSA flags a moderate dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E436. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4152"
+    ]
+  },
+  {
+    "id": "off_0074",
+    "data_source": "openfoodfacts",
+    "name": "Ponceau 4r",
+    "aliases": [
+      "Uuskokkiini",
+      "Cochenillerot a (ponceau 4r)",
+      "Ponceau 4r (cochenillerød a)",
+      "Понсо 4r",
+      "Kumačs 4r",
+      "Πονσω 4r",
+      "Rdeče 4r",
+      "Nykockin",
+      "Pąs 4r",
+      "E 124",
+      "E124",
+      "Ponso 4r",
+      "Erkpunane 4r",
+      "Vermell cotxinilla A"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E124 (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E124. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2009.1328"
+    ]
+  },
+  {
+    "id": "off_0075",
+    "data_source": "openfoodfacts",
+    "name": "Magnesium chloride",
+    "aliases": [
+      "Chlorure de magnésium",
+      "塩化マグネシウム",
+      "Cloreto de magnésio",
+      "Chlorid horečnatý",
+      "Χλωριουχο μαγνησιο",
+      "Magnezijev klorid",
+      "Magnesiumchloride",
+      "Magnesiumklorid",
+      "Magnio chloridas",
+      "Cloruro di magnesio",
+      "Chlorek magnezu",
+      "Klorur tal-manjeżju",
+      "Magnesiumkloridi",
+      "E511"
+    ],
+    "category": "Food additive (stabiliser, coagulant)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E511 (stabiliser, coagulant). EFSA flags a moderate dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E511. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5751"
+    ]
+  },
+  {
+    "id": "off_0076",
+    "data_source": "openfoodfacts",
+    "name": "Polyoxyethylene sorbitan monostearate",
+    "aliases": [
+      "Polyoxyetylénsorbitanmonostearát",
+      "Polyoxyethyleensorbitaanmonostearaat",
+      "E 435",
+      "Monoestearato de sorbitán polioxietilenado",
+      "Polyoxyethylen-Sorbitanmonostearat",
+      "Monoestearato de polioxietileno sorbitano",
+      "E435",
+      "Monostearat de polioxietilenă sorbitan",
+      "Polioksietilēna sorbitāna monostearāts",
+      "Polyoxyethylensorbitanmonostearát",
+      "Polioksietileno sorbitano monostearatas",
+      "Polioksietilen sorbitan monostearat",
+      "Polyoxietylensorbitanmonostearat",
+      "Monostearynian polioksyetylenosorbitolu"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E435 (emulsifier, stabiliser). EFSA flags a moderate dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E435. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4152"
+    ]
+  },
+  {
+    "id": "off_0077",
+    "data_source": "openfoodfacts",
+    "name": "Calcium chloride",
+    "aliases": [
+      "calsiwm clorid",
+      "kalsiumklorid",
+      "kalcia klorido",
+      "Kalcio chloridas",
+      "Clorur de calci",
+      "塩化カルシウム",
+      "Kalcija hlorīds",
+      "Cloreto de cálcio",
+      "ক্যালসিয়াম ক্লোরাইড",
+      "Cloruro de calcio",
+      "కాల్సియం క్లోరైడ్",
+      "Kalcium-klorid",
+      "Kalcijum hlorid",
+      "کلرید کلسیم"
+    ],
+    "category": "Food additive (stabiliser, thickener, coagulant)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E509 (stabiliser, thickener, coagulant). EFSA flags a moderate dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E509. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5751"
+    ]
+  },
+  {
+    "id": "off_0078",
+    "data_source": "openfoodfacts",
+    "name": "Magnesium diglutamate",
+    "aliases": [
+      "Магнезиев диглутамат",
+      "Diglutamato de magnesio",
+      "E625",
+      "Magnézium-diglutamát",
+      "Diglutaminian magnezu",
+      "Diglutamat de magneziu",
+      "Diglutamato de magnésio",
+      "Glutaman hořečnatý",
+      "Magnesiumdiglutamaat",
+      "Diglutamat tal-manjeżju",
+      "Magnija diglutamāts",
+      "Οξινο γλουταμινικο μαγνησιο",
+      "Diglutammato di magnesio",
+      "Diglutamate de magnésium"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E625. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E625. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.3981"
+    ]
+  },
+  {
+    "id": "off_0079",
+    "data_source": "openfoodfacts",
+    "name": "Potassium chloride",
+    "aliases": [
+      "Kaliumkloridi",
+      "Kalijev klorid",
+      "Kaliumchlorid",
+      "Chlorek potasu",
+      "Klorur tal-potassju",
+      "E 508",
+      "Kālija hlorīds",
+      "Cloreto de potássio",
+      "Kálium-klorid",
+      "E508",
+      "kaliumklorid",
+      "Cloruro de potasio",
+      "Chlorure de potassium",
+      "Kaliumchloride"
+    ],
+    "category": "Food additive (stabiliser, thickener, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E508 (stabiliser, thickener, preservative). EFSA flags a moderate dietary over-exposure risk.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E508. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2019.5751"
+    ]
+  },
+  {
+    "id": "off_0080",
+    "data_source": "openfoodfacts",
+    "name": "Sodium bisulphite",
+    "aliases": [
+      "Նատրիումի հիդրոսուլֆիտ",
+      "Natriumvätesulfit",
+      "Natrio bisulfitas",
+      "Natrijum bisulfit",
+      "E 222",
+      "Sodio bisolfito",
+      "Natrium bisulfit",
+      "Οξινο θειωδες νατριο",
+      "Hidrogenossulfito de sódio",
+      "Bisulfit de sodi",
+      "Natrijev bisulfit",
+      "Naatriumvesiniksulfit",
+      "Wodorosiarczyn sodu",
+      "Hydrogensiřičitan sodný"
+    ],
+    "category": "Food additive (antioxidant, preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E222 (antioxidant, preservative). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E222. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4438"
+    ]
+  },
+  {
+    "id": "off_0081",
+    "data_source": "openfoodfacts",
+    "name": "Aluminium ammonium sulphate",
+    "aliases": [
+      "Sulfato de aluminio y amonio",
+      "Solfato di alluminio e ammonio",
+      "Alumínium-ammónium-szulfát",
+      "Sulfato de alumínio e amónio",
+      "Sulfat tal-aluminju u tal-ammonju",
+      "Alumīnija amonija sulfāts",
+      "Síran hlinito-amonný",
+      "Amonijev aluminijev sulfat",
+      "Sulfate d'aluminium ammonique",
+      "Siarczan glinowo-amonowy",
+      "Aluminiumammoniumsulfat",
+      "Síran hlinitoamónny",
+      "Aluminiumammoniumsulfaat",
+      "Sulfat de aluminiu și amoniu"
+    ],
+    "category": "Food additive (stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E523 (stabiliser). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E523. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e523"
+    ]
+  },
+  {
+    "id": "off_0082",
+    "data_source": "openfoodfacts",
+    "name": "Sorbitan tristearate",
+    "aliases": [
+      "Sorbitaantristearaat",
+      "Sorbitantristearát",
+      "sorbitan tristearat",
+      "Szorbitan-trisztearát",
+      "E 492",
+      "Tristearat de sorbitan",
+      "Sorbitaanitristearaatti",
+      "Tristearato di sorbitano",
+      "Τριστεατικη σορβιτανη",
+      "E492",
+      "Triestearat de sorbitan",
+      "сорбитан-тристеарат",
+      "Sorbitāna tristearāts",
+      "Sorbitan tristearat"
+    ],
+    "category": "Food additive (emulsifier, stabiliser)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "high",
+    "severity_label": "HIGH CONCERN",
+    "reason": "Food additive E492 (emulsifier, stabiliser). EFSA flags a high dietary over-exposure risk; Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E492. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "hhttps://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2017.4788"
+    ]
+  },
+  {
+    "id": "off_0083",
+    "data_source": "openfoodfacts",
+    "name": "Calcium ferrocyanide",
+    "aliases": [
+      "Ferroċjanur tal-kalċju",
+      "Σιδηροκυανιουχο ασβεστιο",
+      "Kalcija ferocianīds",
+      "Ferrocianuro cálcico",
+      "Kalcio ferocianidas",
+      "Ferrocianuro di calcio",
+      "Kalciumferrocyanid",
+      "Kaltsiumheksatsüanoferraatii",
+      "Ferrocyanure de calcium",
+      "Ferrocianeto de cálcio",
+      "Kalsiumferrosyanidi",
+      "E 538",
+      "Kalcium-ferro-cianid",
+      "Żelazocyjanek wapnia"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E538. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E538. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e538"
+    ]
+  },
+  {
+    "id": "off_0084",
+    "data_source": "openfoodfacts",
+    "name": "Stearyl tartrate",
+    "aliases": [
+      "Tartrate de stéaryle",
+      "E483",
+      "Stearyltartrat",
+      "Stearüültartraat",
+      "Tartrat de stearil",
+      "Steary tartrát",
+      "Стеарил тартарат",
+      "Steariltartrāts",
+      "Stearil tartrat",
+      "Stearyltartraat",
+      "Winian stearylu",
+      "Τρυγικο στεατυλιο",
+      "Tartrat d'estearoïl",
+      "E 483"
+    ],
+    "category": "Food additive",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E483. Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E483. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e483"
+    ]
+  },
+  {
+    "id": "off_0085",
+    "data_source": "openfoodfacts",
+    "name": "Sodium aluminium phosphate",
+    "aliases": [
+      "Nátrium-alumínium-foszfát",
+      "Fosfato di sodio e alluminio",
+      "Hydrogénfosforečnan hlinito-sodný",
+      "Fosforan glinowo-sodowy",
+      "Fosfato de aluminio y sodio",
+      "Natriumaluminiumfosfat",
+      "Natriumalumiinifosfaatti",
+      "Naatriumalumiiniumfosfaat",
+      "fosforečnan sodno-hlinitý",
+      "E541",
+      "Fosfat tas-sodju u tal-aluminju",
+      "Fosfat de aluminiu și sodiu",
+      "Natrio aliuminio fosfatas",
+      "Fosfato de alumínio e sódio"
+    ],
+    "category": "Food additive (emulsifier, stabiliser, thickener)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E541 (emulsifier, stabiliser, thickener). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E541. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e541"
+    ]
+  },
+  {
+    "id": "off_0086",
+    "data_source": "openfoodfacts",
+    "name": "Curcumin",
+    "aliases": [
+      "E 100",
+      "குர்க்குமின்",
+      "Kurkumin",
+      "כורכומין",
+      "kurkumin",
+      "κουρκουμινη",
+      "E100",
+      "kurkumiin",
+      "クルクミン",
+      "куркумін",
+      "curcumina",
+      "姜黄素",
+      "เคอร์คูมิน",
+      "kurkumín"
+    ],
+    "category": "Food additive (colour)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E100 (colour). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E100. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "http://dx.doi.org/10.2903/j.efsa.2010.1679"
+    ]
+  },
+  {
+    "id": "off_0087",
+    "data_source": "openfoodfacts",
+    "name": "Potassium nitrite",
+    "aliases": [
+      "Kaliumnitrit",
+      "Kalio nitritas",
+      "Kalijev nitrit",
+      "Azotyn potasu",
+      "Kálium-nitrit",
+      "Nitrit de potassi",
+      "Νιτρωδες καλιο",
+      "Nitrito di potassio",
+      "Nitrito de potássio",
+      "Kaliumnitriet",
+      "Nitrit tal-potassju",
+      "Dusitan draselný",
+      "Kālija nitrīts",
+      "E249"
+    ],
+    "category": "Food additive (preservative)",
+    "product_type": "FOOD",
+    "cas_number": "",
+    "concern_level": "medium",
+    "severity_label": "MODERATE CONCERN",
+    "reason": "Food additive E249 (preservative). Listed by France's ANSES among food additives of interest for safety review.",
+    "restricted_in": [],
+    "banned_since": {},
+    "evidence_type": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged": [
+      "France (ANSES)"
+    ],
+    "applicable_products": [
+      "Food",
+      "Beverages"
+    ],
+    "notes": "E-number E249. Authorized in the EU but flagged for over-exposure/safety review.",
+    "source": [
+      "https://world.openfoodfacts.org/additive/en:e249"
+    ]
+  }
+]

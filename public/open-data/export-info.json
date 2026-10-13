@@ -1,0 +1,10 @@
+{
+  "source": "Open Food Facts, https://world.openfoodfacts.org",
+  "license": "ODbL 1.0, https://opendatacommons.org/licenses/odbl/1-0/",
+  "contents_license": "DbCL 1.0, https://opendatacommons.org/licenses/dbcl/1-0/",
+  "off_origin_records": 87,
+  "enriched_records": 18,
+  "golden_sha256": "9894910d40bbea13874697a9d5299be034b86d2a42f6b141605a5b52355e52a4",
+  "shipped_db_signature": "23bf893c46f8745a2c207fd91cc2286ec52cd9277c245267da1498342ccf6347",
+  "generated_by": "constants/export_off_open_data.py"
+}

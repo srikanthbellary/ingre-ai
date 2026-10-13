@@ -1,0 +1,522 @@
+[
+  {
+    "id": "003",
+    "name": "Butylated Hydroxytoluene",
+    "aliases_from_off": [
+      "Butylhydroxitoluen (bht)",
+      "Idrositoluwen butilat (bht)",
+      "Butilezett hidroxi-toluol (bht)",
+      "Butilhidroksitoluols (bht)",
+      "Butilhidroxitoluen (bht)",
+      "Butylhydroxytoluène",
+      "Butyylihydroksitolueeni (bht)",
+      "Butylhydroxytolueen",
+      "e321",
+      "Butilhidroxitoluè",
+      "Butilhidroxitolueno",
+      "Βουτυλ-υδροξυτολουολιο (βητ)",
+      "E 321"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2012.2588"
+    ]
+  },
+  {
+    "id": "004",
+    "name": "Sodium Nitrite",
+    "aliases_from_off": [
+      "Natrijev nitrit",
+      "Natriumnitrit",
+      "亚硝酸钠",
+      "Natriumnitriitti",
+      "Натрий нитрити",
+      "Natriumnitritt",
+      "E 250",
+      "Dusitan sodný",
+      "Nitrit de sodi",
+      "Nitrito de sódio",
+      "Nitrito di sodio",
+      "Nátrium-nitrit",
+      "Natriumnitriet"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://zenodo.org/record/1252752/files/EFSAOutputs_KJ_2018.xlsx"
+    ]
+  },
+  {
+    "id": "005",
+    "name": "Sodium Benzoate",
+    "aliases_from_off": [
+      "Натриев бензоат",
+      "Benzoesan sodu",
+      "Бензоат натрия",
+      "Benzoato di sodio",
+      "Natríumbensóat",
+      "بنزوات الصوديوم",
+      "Natriumbensoat",
+      "Benzoan sodný",
+      "natri benzoat",
+      "Natrijum-benzoat",
+      "Nātrija benzoāts",
+      "Benzoato sódico",
+      "Benżoat tas-sodju",
+      "سدیم بنزوئیک اسید"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4433"
+    ]
+  },
+  {
+    "id": "007",
+    "name": "Red 40",
+    "aliases_from_off": [
+      "Võlupunane ac",
+      "Rouge allura AC",
+      "Alura rdeče ac",
+      "Roșu allura ac",
+      "Alluranpunainen ac",
+      "Vermell Allure 2C",
+      "Aħmar allura ac",
+      "Rojo allura ac",
+      "Alūra sarkanais ac",
+      "Allurarött ac",
+      "Červená allura ac",
+      "Czerwień allura ac",
+      "Алура червено ac",
+      "Allurarot ac"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4007"
+    ]
+  },
+  {
+    "id": "010",
+    "name": "Carrageenan",
+    "aliases_from_off": [
+      "Karageno",
+      "Καραγενανη",
+      "Karagen",
+      "カラギーナン",
+      "Karagenan",
+      "Carragenina",
+      "Caragenan",
+      "Karagināns",
+      "கராகீனன்",
+      "Каррагинан и его соли",
+      "Karrageeni",
+      "Carrageen",
+      "کاراگینان"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "source_from_off": []
+  },
+  {
+    "id": "033",
+    "name": "Monosodium Glutamate",
+    "aliases_from_off": [
+      "ununatria L-glutamato",
+      "Mononatrijev glutamat",
+      "mononatrijev glutaminat",
+      "Mononatriumglutamaat",
+      "글루탐산 나트륨",
+      "Monosodium glutamat",
+      "මොනොසෝඩියම් ග්ලූටමේට්",
+      "Glutamat de monosodi",
+      "Glutammato di monosodio",
+      "味精",
+      "Mononātrija glutamāts",
+      "Betsin",
+      "Мононатриев глутамат",
+      "Mononatrijum glutamat"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4910"
+    ]
+  },
+  {
+    "id": "046",
+    "name": "Benzoic Acid",
+    "aliases_from_off": [
+      "Benzenkarboksirūgštis",
+      "Kwas benzoesowy",
+      "Βενζοϊκο οξυ",
+      "Acid benzoic",
+      "Бензоена киселина",
+      "Acide benzoïque",
+      "Ácido benzoico",
+      "Acido benzoico",
+      "E 210",
+      "Kyselina benzoová",
+      "Àcid benzoic",
+      "Benzoesav",
+      "Benzojska kislina"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4433"
+    ]
+  },
+  {
+    "id": "092",
+    "name": "FD&C Blue 1",
+    "aliases_from_off": [
+      "Брилянтно синьо FCF",
+      "Brilijantno plavo FCF",
+      "gorm lonrach FCF",
+      "Briljantno modro FCF",
+      "ブリリアントブルーFCF",
+      "Brilliánskék FCF",
+      "Brilantní modř FCF",
+      "Blu brillanti FCF",
+      "Λαμπρο κυανο FCF",
+      "briljantblà FCF",
+      "Briljantsinine FCF",
+      "Blau brillant FCF",
+      "Briljantblauw FCF",
+      "Briljantblått FCF"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)"
+    ],
+    "source_from_off": [
+      "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1853"
+    ]
+  },
+  {
+    "id": "094",
+    "name": "Yellow 6",
+    "aliases_from_off": [
+      "Groc ataronjat S",
+      "Żółcień pomarańczowa FCF",
+      "Gelborange S",
+      "Apus galben FCF",
+      "Jaune orangé S",
+      "Päikeseloojangukollane FCF",
+      "Желтый солнечный закат",
+      "Amarelo-sol FCF",
+      "Κιτρινο sunset FCF",
+      "Amarillo anaranjado s",
+      "Žltá FCF",
+      "Sončno rumeno FCF",
+      "Giallo tramonto FCF"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2014.3765"
+    ]
+  },
+  {
+    "id": "122",
+    "name": "Polysorbate 80",
+    "aliases_from_off": [
+      "Monoleato di poliossietilene sorbitano",
+      "Полиоксиетилен сорбитан моноолеат",
+      "Monooleat de sorbitan polioxietilenat",
+      "polioksietilen sorbitan monooleat",
+      "Monooleat de polioxietilenă sorbitan",
+      "Polyoxyethylen(20)sorbitanmonooleat",
+      "Mono-oleato de polioxietileno sorbitano",
+      "Polyoxyethylen-sorbitanmonooleat",
+      "Polioksietileno sorbitano monooleatas",
+      "Polyoxylénsorbitanmonooleát",
+      "Polioksietilēna sorbitāna monooleāts",
+      "Polüoksüetüleen sorbitaanmonooleaat",
+      "Μονοελαϊκη πολυοξυ-αιθυλενο-σορβιτανη",
+      "Monooleato de sorbitán polioxietilenado"
+    ],
+    "evidence_type_from_off": [
+      "EFSA evaluation",
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "EU (EFSA)",
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2015.4152"
+    ]
+  },
+  {
+    "id": "171",
+    "name": "Sucralose",
+    "aliases_from_off": [
+      "Sukralozė",
+      "sukraloza",
+      "Sukraloos",
+      "Sukraloza",
+      "Szukralóz",
+      "Sukraloosi",
+      "Σουκραλοζη",
+      "スクラロース",
+      "E 955",
+      "Сукралоза",
+      "Sukralos",
+      "Sucralosa",
+      "Sukraloze",
+      "Sukralóza"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4361"
+    ]
+  },
+  {
+    "id": "240",
+    "name": "CI 75120",
+    "aliases_from_off": [
+      "أناتو",
+      "E160b",
+      "Arxiota",
+      "Annaato",
+      "Annato",
+      "Anatas",
+      "Анато",
+      "Biksa kolorigilo",
+      "ಅನಾಟೋ",
+      "Annatto (Bixin und Norbixin)",
+      "Màu điều nhuộm",
+      "Rocou",
+      "胭脂樹紅",
+      "Αννατο"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4544"
+    ]
+  },
+  {
+    "id": "387",
+    "name": "Silica",
+    "aliases_from_off": [
+      "Lüssatit",
+      "Silice",
+      "צורן דו-חמצני",
+      "Piidioksidi",
+      "Oxid křemičitý",
+      "Siliciumdioxid",
+      "Dioxid de siliciu",
+      "Silico",
+      "Silicio dioksidas",
+      "Biossido di silicio",
+      "Dioxyde de silicium",
+      "Siliciumdioxide",
+      "Սիլիցիումի երկօքսիդ",
+      "Silīcija dioksīds"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://world.openfoodfacts.org/additive/en:e551"
+    ]
+  },
+  {
+    "id": "391",
+    "name": "Bentonite",
+    "aliases_from_off": [
+      "Bentonitt",
+      "बेंटोनाइट",
+      "Бентоніт",
+      "بنتونيت",
+      "เบนโทไนต์",
+      "Μπεντονίτης",
+      "Bentoniit",
+      "Bentonita",
+      "E558",
+      "בנטוניט",
+      "Bentonitas",
+      "膨润土",
+      "Bentoniitti",
+      "Bentonito"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://world.openfoodfacts.org/additive/en:e558"
+    ]
+  },
+  {
+    "id": "501",
+    "name": "Titanium Dioxide Nanoparticles",
+    "aliases_from_off": [
+      "Biossido di titanio",
+      "Titaanidioksidi",
+      "Титан оксиддери",
+      "Titani dioxide",
+      "Білила титанові",
+      "Titanijum dioksid",
+      "Dióxido de titânio",
+      "Oxyde de titane",
+      "Титана диоксид",
+      "Титанов диоксид",
+      "Titanyum dioksit",
+      "Аксід тытану",
+      "Տիտանի երկօքսիդ",
+      "이산화 타이타늄"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4545"
+    ]
+  },
+  {
+    "id": "506",
+    "name": "Acesulfame Potassium",
+    "aliases_from_off": [
+      "Acesulfamkalium",
+      "Asesulfam",
+      "Acesulfamo-k",
+      "acesulfam K",
+      "Ацесулфам к",
+      "Acesulfamas k",
+      "Ацесульфам",
+      "ацесульфам",
+      "乙酰磺胺酸钾",
+      "Aċesulfam k",
+      "Acesulfam K",
+      "แอซีซัลเฟมโพแทสเซียม",
+      "Acésulfame K",
+      "Acesulfāms k"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "http://dx.doi.org/10.2903/j.efsa.2016.4437"
+    ]
+  },
+  {
+    "id": "528",
+    "name": "Aluminosilicate",
+    "aliases_from_off": [
+      "Silikat tas-sodju u tal-aluminju",
+      "Kremičitan hlinitosodný",
+      "Silicato di sodio e alluminio",
+      "Natriumaluminiumsilikat",
+      "Natriumalumiinisilikaatti",
+      "Silicate alumino-sodique",
+      "Křemičitan sodno-hlinitý",
+      "Silicat de sodi i alumini",
+      "Silicato de sodio y aluminio",
+      "Nātrija alumīnija silikāts",
+      "Natriumaluminiumsilicat",
+      "Nátrium-alumínium-szilikát",
+      "Натриевоалуминиев силикат"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://world.openfoodfacts.org/additive/en:e554"
+    ]
+  },
+  {
+    "id": "605",
+    "name": "Diacetyl Tartaric Acid Esters of Mono- and Diglycerides",
+    "aliases_from_off": [
+      "E 472e",
+      "monoglicerid",
+      "E472e food additive",
+      "Mono- og diacetylvinsyreester av MDG",
+      "Mono- och diglyceriders mono- och diacetylvinsyraestrar",
+      "Эфиры глицерина диацетилвинной и жирных кислот",
+      "グリセリンジアセチル酒石酸脂肪酸エステル",
+      "Естери гліцерину та діацетилвинної і жирних кислот"
+    ],
+    "evidence_type_from_off": [
+      "ANSES additives of interest"
+    ],
+    "regions_flagged_from_off": [
+      "France (ANSES)"
+    ],
+    "source_from_off": [
+      "https://world.openfoodfacts.org/additive/en:e472e"
+    ]
+  }
+]

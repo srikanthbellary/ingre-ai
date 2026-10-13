@@ -2,7 +2,14 @@ import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return ["", "/privacy/", "/terms/"].map((path) => ({
+  return [
+    "",
+    "/support/",
+    "/privacy/",
+    "/terms/",
+    "/delete-account/",
+    "/open-data/",
+  ].map((path) => ({
     url: `${site.url}${path}`,
     changeFrequency: "monthly",
     priority: path === "" ? 1 : 0.4,

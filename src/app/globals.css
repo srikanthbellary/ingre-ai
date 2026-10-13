@@ -340,6 +340,76 @@ body::before {
   border-bottom-color: var(--ink-300);
 }
 
+/* --- Long-form copy: privacy, account deletion, support, open data ------- */
+
+.doc strong {
+  font-weight: 600;
+  color: var(--bone);
+}
+
+.doc code,
+.doc pre {
+  font-family: var(--font-mono), ui-monospace, Menlo, Consolas, monospace;
+}
+
+.doc code {
+  font-size: 0.875em;
+  color: var(--bone);
+}
+
+/* Plain lists only. A list with its own classes lays itself out. */
+.doc :where(ul, ol):not([class]) {
+  margin-top: 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.doc ul:not([class]) {
+  list-style: disc;
+}
+
+.doc ol:not([class]) {
+  list-style: decimal;
+}
+
+.doc :where(ul, ol):not([class]) > li + li {
+  margin-top: 0.5rem;
+}
+
+.doc :where(ul, ol):not([class]) > li::marker {
+  color: var(--gr-400);
+}
+
+.doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.doc th,
+.doc td {
+  padding: 0.65rem 1rem 0.65rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc th {
+  font-family: var(--font-mono), ui-monospace, Menlo, Consolas, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--gr-400);
+}
+
+.doc td {
+  border-top: 1px solid var(--glass-edge);
+}
+
+.doc :where(th, td):last-child {
+  padding-right: 0;
+}
+
 .chip {
   display: inline-flex;
   align-items: center;

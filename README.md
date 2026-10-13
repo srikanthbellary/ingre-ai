@@ -25,6 +25,15 @@ The custom domain is `ingre.ai` (`public/CNAME`). DNS is pointed separately.
 
 The store URL is left unset in `src/lib/site.ts` (`storeUrl`) until a public listing URL is confirmed. The call to action falls back to the on-page `#get` section.
 
+## Legal, support, and open data
+
+The app links to these pages, so their paths must not change.
+
+- `/privacy/` is the policy bundled in the app (`assets/legal/privacy_policy.md` in the app repo), word for word, with its date. Change the app's copy first, then this page.
+- `/delete-account/` is the account deletion page Google Play requires. The app links to it from Profile and from the Delete account sheet.
+- `/support/` is the App Store support URL.
+- `/open-data/` credits Open Food Facts (ODbL) and links the files in `public/open-data/`, a verbatim copy of `data/open-food-facts-derived/` from the app repo. Copy the folder again after every data export. The page reads it at build time.
+
 ## Visual system
 
 Glassy Monograph. The Monograph palette stays. Glass is a material on top of it, not a new set of hues.

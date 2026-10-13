@@ -21,16 +21,25 @@ export function Footer() {
           </div>
           <nav
             aria-label="Footer"
-            className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gr-300"
+            className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-gr-300 sm:max-w-md sm:justify-end"
           >
             <a href="/#how" className="hover:text-bone">
               How it works
             </a>
+            <Link href="/support/" className="hover:text-bone">
+              Support
+            </Link>
             <Link href="/privacy/" className="hover:text-bone">
               Privacy
             </Link>
             <Link href="/terms/" className="hover:text-bone">
               Terms
+            </Link>
+            <Link href="/delete-account/" className="hover:text-bone">
+              Delete account
+            </Link>
+            <Link href="/open-data/" className="hover:text-bone">
+              Open data
             </Link>
             <a href={`mailto:${site.supportEmail}`} className="ink-link">
               {site.supportEmail}
