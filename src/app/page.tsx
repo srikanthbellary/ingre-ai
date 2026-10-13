@@ -14,31 +14,32 @@ const steps = [
   },
   {
     n: "02",
-    title: "See what was flagged",
-    body: "Ingre checks those names against published government and regulatory lists.",
+    title: "Read the regulatory notes",
+    body: "Ingre matches each name to published regulatory sources and shows what regulators have published about it.",
   },
   {
     n: "03",
     title: "Open the source",
-    body: "Every flag points to the list it came from, so you can read it yourself.",
+    body: "Every note points to the source it came from, so you can read it yourself.",
   },
 ];
 
-const verdicts = [
+// The app's three label statuses and its own summaries for them.
+const statuses = [
   {
-    label: "Clear",
-    chip: "chip-clear",
-    body: "Nothing on the published lists we check for this scan.",
-  },
-  {
-    label: "Caution",
+    label: "Regulatory notes",
     chip: "chip-caution",
-    body: "Something worth a closer look before it goes in the cart.",
+    body: "Ingredients with a regulator record in Ingre's sources. Open each one to read the source.",
   },
   {
-    label: "Avoid",
-    chip: "chip-avoid",
-    body: "Flagged on a list you can open and read.",
+    label: "No notes found",
+    chip: "chip-clear",
+    body: "No regulator record found in Ingre's sources for the ingredients read. Check the label and the manufacturer.",
+  },
+  {
+    label: "Unconfirmed",
+    chip: "chip-unconfirmed",
+    body: "No listed ingredient was confirmed in this read. That does not mean there are no regulatory notes: the on-device read can miss ingredients.",
   },
 ];
 
@@ -48,8 +49,8 @@ const keeps = [
     body: "One reader for the packages that already print an ingredient list.",
   },
   {
-    title: "Lists you can open",
-    body: "Flags are matched to published government and regulatory sources.",
+    title: "Sources you can open",
+    body: "Each note links to the published regulatory source it came from.",
   },
   {
     title: "A few scans free",
@@ -153,7 +154,7 @@ export default function HomePage() {
 
           <Rise delay={80} className="mt-12">
             <FigurePlate
-              kicker="Fig. 02 · Scan, parse, flag, call"
+              kicker="Fig. 02 · Scan, parse, match, report"
               note="Food and beauty labels · Android and iOS"
             >
               <ScanSchematic />
@@ -181,19 +182,18 @@ export default function HomePage() {
       <section className="section-rule">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 lg:py-28">
           <Rise>
-            <p className="eyebrow">The verdict</p>
+            <p className="eyebrow">Regulatory status</p>
             <h2 className="mt-3 max-w-xl font-display text-3xl font-medium tracking-tight text-bone sm:text-4xl">
-              Clear, caution, or avoid.
+              Notes from regulators.
             </h2>
             <p className="mt-4 max-w-2xl text-base leading-relaxed text-gr-300">
-              A short read you can use before the item goes in the cart. Not a
-              diagnosis. A flag against published lists, with the source
-              attached.
+              Each note shows what a regulator published about an ingredient,
+              with a source you can open. Ingre does not rate products.
             </p>
           </Rise>
           <Rise delay={80} className="ambient-stage mt-12 p-3 sm:p-4">
             <div className="verdict-lanes glass">
-              {verdicts.map((item) => (
+              {statuses.map((item) => (
                 <article key={item.label} className="verdict-lane">
                   <span className={`chip ${item.chip}`}>{item.label}</span>
                   <p className="mt-5 text-base leading-relaxed text-gr-300">
@@ -216,8 +216,8 @@ export default function HomePage() {
               </h2>
               <p className="mt-5 text-base leading-relaxed text-gr-300">
                 Label photos remain on the phone unless you choose an optional
-                extra-help feature. A few free scans to start. Sources are there
-                to check. We do not ask you to take our word for a flag.
+                extra-help feature. A few free scans to start. Every note comes
+                with its source, so you do not have to take our word for it.
               </p>
             </Rise>
             <ul className="ambient-stage grid gap-4 p-4">
@@ -243,9 +243,9 @@ export default function HomePage() {
               Take the label with you.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-relaxed text-gr-300">
-              Point the camera at the printed ingredient list, read the verdict,
-              and open the list a flag came from. Food, beauty, and personal
-              care, on Android and iOS.
+              Point the camera at the printed ingredient list, read the
+              regulatory notes, and open the source each one came from. Food,
+              beauty, and personal care, on Android and iOS.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a href={appHref} className="btn btn-primary sm:self-start">
@@ -272,9 +272,10 @@ export default function HomePage() {
       <section className="section-rule">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
           <p className="max-w-3xl text-sm leading-relaxed text-gr-400">
-            Ingre is an informational tool. It is not medical advice, a diagnosis,
-            or a substitute for reading the package yourself or talking with a
-            qualified professional. Questions:{" "}
+            Ingre reports what food regulators have published. It does not
+            rate products or give medical advice. Rules differ by country and
+            change over time. Always read the label and ask a doctor about
+            allergies or health conditions. Questions:{" "}
             <a className="ink-link" href={`mailto:${site.supportEmail}`}>
               {site.supportEmail}
             </a>

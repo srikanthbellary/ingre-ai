@@ -6,7 +6,8 @@
  * Glassy Monograph.
  * Monograph hues stay: bone #F4F1EA, graphite #0B0D0F, ink #1F4A7D.
  * Glass is a material layer: low-alpha bone or graphite, blur, hairline, specular.
- * Saturation belongs to verdicts only: clear, caution, avoid.
+ * Saturation belongs to regulatory status only. The tokens keep the app's
+ * names (clear, caution, avoid); the words on screen never rate.
  */
 
 :root {
@@ -444,6 +445,12 @@ body::before {
   color: var(--avoid-lit);
 }
 
+/* Unconfirmed: no colour, as in the app. */
+.chip-unconfirmed {
+  background: var(--gr-700);
+  color: var(--gr-300);
+}
+
 .rise.will-rise:not(.is-in) {
   opacity: 0;
   transform: translateY(22px);
@@ -767,7 +774,7 @@ body::before {
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.02em;
-  color: var(--avoid-bright);
+  color: var(--caution-bright);
 }
 
 .verdict-score span,

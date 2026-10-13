@@ -2,9 +2,10 @@ import { readFileSync, statSync } from "fs";
 import path from "path";
 
 /**
- * public/open-data/ is a verbatim copy of data/open-food-facts-derived/ in
- * the Ingre app repo. The /open-data/ page reads it at build time, so its
- * counts, sizes, and licence text always match the files served beside it.
+ * public/open-data/ is a copy of data/open-food-facts-derived/ in the Ingre
+ * app repo; only README.md's "Public home" line is edited to say where it is
+ * published. The /open-data/ page reads it at build time, so its counts,
+ * sizes, and licence text always match the files served beside it.
  * Server only: this module reads the file system.
  */
 const dir = path.join(process.cwd(), "public", "open-data");

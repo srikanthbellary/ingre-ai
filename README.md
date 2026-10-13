@@ -29,10 +29,10 @@ The store URL is left unset in `src/lib/site.ts` (`storeUrl`) until a public lis
 
 The app links to these pages, so their paths must not change.
 
-- `/privacy/` is the policy bundled in the app (`assets/legal/privacy_policy.md` in the app repo), word for word, with its date. Change the app's copy first, then this page.
+- `/privacy/` and `/terms/` are the policy and Terms bundled in the app (`assets/legal/privacy_policy.md` and `assets/legal/terms_of_service.md` in the app repo), word for word, with their dates. Change the app's copy first, then the page.
 - `/delete-account/` is the account deletion page Google Play requires. The app links to it from Profile and from the Delete account sheet.
 - `/support/` is the App Store support URL.
-- `/open-data/` credits Open Food Facts (ODbL) and links the files in `public/open-data/`, a verbatim copy of `data/open-food-facts-derived/` from the app repo. Copy the folder again after every data export. The page reads it at build time.
+- `/open-data/` credits Open Food Facts (ODbL) and links the files in `public/open-data/`, a copy of `data/open-food-facts-derived/` from the app repo. Only `README.md`'s "Public home" line differs: it says the folder is published at https://ingre.ai/open-data/. Copy the folder again after every data export and keep that line. The page reads the folder at build time.
 
 ## Visual system
 
@@ -51,9 +51,9 @@ Glassy Monograph. The Monograph palette stays. Glass is a material on top of it,
 | glass.specular | bone 10% to 0% over the top 42% | Soft light inside the surface |
 | blur | 14 / 18 / 24 px | Pill, card, and chrome |
 
-Saturated colour belongs to the verdicts only (`clear`, `caution`, `avoid`). Chips stay opaque washes. Type is Fraunces for display, Inter for text, and IBM Plex Mono for eyebrows and figure labels. Small captions use `#828890`, a step lighter than the contest sheet's gray, so they stay readable on graphite.
+Saturated colour belongs to regulatory status only. The tokens keep the app's names (`clear`, `caution`, `avoid`); the words on screen are the app's status words and never rate. Chips stay opaque washes. Type is Fraunces for display, Inter for text, and IBM Plex Mono for eyebrows and figure labels. Small captions use `#828890`, a step lighter than the contest sheet's gray, so they stay readable on graphite.
 
-The page field is graphite with one soft ambient glow (ink, with a little verdict green and amber at the edges) so the frost has something to refract. When the reader asks for reduced transparency or more contrast, or the browser has no `backdrop-filter`, the same shapes fall back to solid graphite 800. Layout does not shift.
+The page field is graphite with one soft ambient glow (ink, with a little status green and amber at the edges) so the frost has something to refract. When the reader asks for reduced transparency or more contrast, or the browser has no `backdrop-filter`, the same shapes fall back to solid graphite 800. Layout does not shift.
 
 The mark is the aperture: viewfinder corners around a centred `i`. Assets live in `public/`: `favicon.svg`, `apple-touch-icon.png`, `brand/ingre-mark.svg`, `brand/ingre-mark-bone.svg`, and the social card `brand/og-monograph.png` (rendered from [`scripts/brand-og.html`](scripts/brand-og.html)).
 

@@ -6,7 +6,7 @@ Some ingredient information in Ingre comes from [Open Food Facts](https://world.
 
 Credit: Open Food Facts contributors, https://world.openfoodfacts.org. No Open Food Facts product photos are used anywhere in Ingre.
 
-Public home: `https://ingre.ai/open-data` (to be hosted from this folder; not live as of 12 Oct 2026).
+Public home: published at `https://ingre.ai/open-data/`, from this folder.
 
 ## Files
 

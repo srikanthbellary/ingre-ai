@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { useReducedMotion } from "@/lib/motion";
 import { SCHEMATIC_TOKENS, type Level } from "@/lib/label";
 
-const STAGES = ["01 · Scan", "02 · Parse", "03 · Flag", "04 · Call"];
+const STAGES = ["01 · Scan", "02 · Parse", "03 · Match", "04 · Report"];
 
 const RULE = "rgba(244,241,234,0.28)";
 const RULE_SOFT = "rgba(244,241,234,0.16)";
@@ -215,18 +215,18 @@ export function ScanSchematic() {
       });
     };
 
-    const drawCall = (box: Box, p: number) => {
+    const drawReport = (box: Box, p: number) => {
       if (p <= 0) return;
+      // What the app reports for this label: notes and the rest, no rating.
       const counts: [Level, number, string][] = [
-        ["avoid", 1, "to avoid"],
-        ["caution", 1, "caution"],
-        ["clear", 4, "clear"],
+        ["caution", 2, "regulatory notes"],
+        ["clear", 4, "with no notes"],
       ];
       const pad = 14;
       const rowH = Math.min(38, (box.h - pad * 2) / 3.6);
-      const top = box.y + (box.h - rowH * 3) / 2 - 6;
+      const top = box.y + (box.h - rowH * counts.length) / 2 - 6;
       counts.forEach(([level, n, text], i) => {
-        const appear = Math.max(0, Math.min(1, p * 3 - i));
+        const appear = Math.max(0, Math.min(1, p * counts.length - i));
         if (appear <= 0) return;
         const y = top + rowH * i + rowH / 2;
         ctx.globalAlpha = appear;
@@ -237,14 +237,14 @@ export function ScanSchematic() {
         ctx.fillText(String(Math.ceil(n * appear)), box.x + pad + 12, y);
         ctx.font = labelFont(fs() - 1);
         ctx.fillStyle = GRAPHITE_DIM;
-        ctx.fillText(text, box.x + pad + 12 + 16, y + 0.5);
+        ctx.fillText(fit(text, box.w - pad * 2 - 28), box.x + pad + 12 + 16, y + 0.5);
         ctx.globalAlpha = 1;
       });
 
-      const verdictY = top + rowH * 3 + 14;
+      const noteY = top + rowH * counts.length + 14;
       ctx.font = labelFont(fs() - 1);
-      ctx.fillStyle = p > 0.9 ? AVOID : GRAPHITE_DIM;
-      ctx.fillText(fit("Avoid · open the source", box.w - 28), box.x + 14, verdictY);
+      ctx.fillStyle = p > 0.9 ? INK : GRAPHITE_DIM;
+      ctx.fillText(fit("Open each source", box.w - 28), box.x + 14, noteY);
     };
 
     const connector = (a: Box, b: Box, p: number) => {
@@ -313,7 +313,7 @@ export function ScanSchematic() {
       const scanP = span(0.15, 1.5);
       const parseP = Math.max(span(2.1, 1.2), held);
       const flagP = Math.max(span(3.7, 1.3), held);
-      const callP = Math.max(span(5.3, 0.9), held);
+      const reportP = Math.max(span(5.3, 0.9), held);
 
       const hops = [span(1.7, 0.4), span(3.35, 0.35), span(5.0, 0.3)];
       for (let i = 0; i < 3; i++) connector(boxes[i], boxes[i + 1], hops[i]);
@@ -322,7 +322,7 @@ export function ScanSchematic() {
         scanP > 0 && scanP < 1 ? 1 : scanP >= 1 ? 0.35 : 0,
         parseP > 0 && parseP < 1 ? 1 : parseP >= 1 ? 0.35 : 0,
         flagP > 0 && flagP < 1 ? 1 : flagP >= 1 ? 0.35 : 0,
-        callP > 0 ? 1 : 0,
+        reportP > 0 ? 1 : 0,
       ];
 
       boxes.forEach((box, i) => frame(box, active[i]));
@@ -337,16 +337,15 @@ export function ScanSchematic() {
       drawScan(boxes[0], scanP, held);
       drawTokens(boxes[1], parseP, false);
       drawTokens(boxes[2], flagP, flagP > 0);
-      drawCall(boxes[3], callP);
+      drawReport(boxes[3], reportP);
 
       const ly = height - 8;
       ctx.font = labelFont(fs() - 1);
       let lx = 14;
       (
         [
-          ["avoid", "avoid"],
-          ["caution", "caution"],
-          ["clear", "clear"],
+          ["caution", "regulatory note"],
+          ["clear", "no notes found"],
         ] as [Level, string][]
       ).forEach(([level, text]) => {
         ctx.fillStyle = LEVEL_COLOR[level];

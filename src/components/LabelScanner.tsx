@@ -10,10 +10,12 @@ const VERDICT_AT = 2150;
 const FLAG_START = 280;
 const FLAG_STEP = 190;
 
+// The app's chip words: every ingredient with a record reads the same, and
+// none of them is a rating.
 const levelWord: Record<Level, string> = {
-  avoid: "Avoid",
-  caution: "Caution",
-  clear: "Clear",
+  avoid: "Regulatory note",
+  caution: "Regulatory note",
+  clear: "No notes found",
 };
 
 export function LabelScanner() {
@@ -153,10 +155,14 @@ export function LabelScanner() {
           >
             <div className="verdict-score">
               <b>{score}</b>
-              <span>flagged on this label</span>
+              <span>
+                {score === 1
+                  ? "ingredient has a regulatory note"
+                  : "ingredients have regulatory notes"}
+              </span>
             </div>
             <p className="verdict-note">
-              Avoid. Every flag points to the list it came from.
+              Open each one to read the source. Ingre does not rate products.
             </p>
           </div>
         </div>
