@@ -39,6 +39,15 @@ export default function TermsPage() {
             </p>
           </section>
           <section>
+            <h2 className="font-display text-2xl text-bone">Governing law</h2>
+            <p className="mt-3">
+              Ingre is operated by Sunrise Gen AI LLC. These terms are governed
+              by the laws of the State of Florida, USA. Any dispute about them
+              will be heard in the state or federal courts located in Palm Beach
+              County, Florida.
+            </p>
+          </section>
+          <section>
             <h2 className="font-display text-2xl text-bone">Contact</h2>
             <p className="mt-3">
               Questions about these terms:{" "}
