@@ -43,6 +43,14 @@ export default function SupportPage() {
           . Tell us your phone model and the app version. If you are signed in,
           the version is in Profile, Settings (the gear icon), About.
         </p>
+        <p className="mt-3">
+          Phone:{" "}
+          <a className="ink-link" href={site.phoneHref}>
+            {site.phone}
+          </a>
+          . Mailing address: {site.companyName},{" "}
+          {site.mailingAddress.join(", ")}.
+        </p>
         <a
           className="btn btn-primary mt-6"
           href={supportMailto(SUPPORT_SUBJECT)}
