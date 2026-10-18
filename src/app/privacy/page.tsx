@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Fragment } from "react";
 import { site, supportMailto } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -469,6 +470,20 @@ export default function PrivacyPage() {
               <SupportEmail />
               <br />
               Sunrise Gen AI LLC
+              {site.mailingAddress.map((line) => (
+                <Fragment key={line}>
+                  <br />
+                  {line}
+                </Fragment>
+              ))}
+              <br />
+              <a className="ink-link" href={site.phoneHref}>
+                {site.phone}
+              </a>
+              <br />
+              <a className="ink-link" href={`mailto:${site.companyEmail}`}>
+                {site.companyEmail}
+              </a>
             </address>
           </section>
         </div>

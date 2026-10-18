@@ -3,6 +3,11 @@ export const site = {
   domain: "ingre.ai",
   url: "https://ingre.ai",
   supportEmail: "support@ingre.ai",
+  companyName: "Sunrise Gen AI LLC",
+  companyEmail: "support@sunrisegenai.com",
+  phone: "+1 857-382-3733",
+  phoneHref: "tel:+18573823733",
+  mailingAddress: ["PO Box 211056", "Royal Palm Beach, FL 33421"],
   description:
     "Ingre reads the printed ingredient label on food, beauty, and personal care products, including ones no catalog has listed yet.",
   storeUrl: null as string | null,

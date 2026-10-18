@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Fragment } from "react";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -56,6 +57,23 @@ export default function TermsPage() {
               </a>
               .
             </p>
+            <address className="mt-3 not-italic">
+              {site.companyName}
+              {site.mailingAddress.map((line) => (
+                <Fragment key={line}>
+                  <br />
+                  {line}
+                </Fragment>
+              ))}
+              <br />
+              <a className="ink-link" href={site.phoneHref}>
+                {site.phone}
+              </a>
+              <br />
+              <a className="ink-link" href={`mailto:${site.companyEmail}`}>
+                {site.companyEmail}
+              </a>
+            </address>
           </section>
         </div>
       </div>
