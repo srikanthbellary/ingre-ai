@@ -20,7 +20,7 @@ const steps = [
   {
     n: "03",
     title: "Open the source",
-    body: "Every note points to the source it came from, so you can read it yourself.",
+    body: "Notes point to the sources they came from, so you can read them yourself.",
   },
 ];
 
@@ -50,7 +50,7 @@ const keeps = [
   },
   {
     title: "Sources you can open",
-    body: "Each note links to the published regulatory source it came from.",
+    body: "Notes link to the published regulatory sources they came from.",
   },
   {
     title: "A few scans free",
@@ -116,8 +116,8 @@ export default function HomePage() {
             </h2>
             <div className="mt-6 space-y-5 text-base leading-relaxed text-gr-300">
               <p>
-                Most scanners look up a known barcode. If the item is new,
-                imported, private-label, or simply missing, you get nothing.
+                A barcode lookup only works for products already in a catalog.
+                Ingre needs no barcode: take a photo of the ingredient list.
               </p>
               <p>
                 Ingre starts with the label. It reads the printed ingredients on
@@ -216,8 +216,8 @@ export default function HomePage() {
               </h2>
               <p className="mt-5 text-base leading-relaxed text-gr-300">
                 Label photos remain on the phone unless you choose an optional
-                extra-help feature. A few free scans to start. Every note comes
-                with its source, so you do not have to take our word for it.
+                extra-help feature. A few free scans to start. Notes link to their
+                sources, so you do not have to take our word for it.
               </p>
             </Rise>
             <ul className="ambient-stage grid gap-4 p-4">
@@ -272,8 +272,9 @@ export default function HomePage() {
       <section className="section-rule">
         <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
           <p className="max-w-3xl text-sm leading-relaxed text-gr-400">
-            Ingre reports what food regulators have published. It does not
-            rate products or give medical advice. Rules differ by country and
+            Ingre reports what regulators have published about food, beauty
+            and personal care ingredients. It does not rate products or give
+            medical advice. Rules differ by country and
             change over time. Always read the label and ask a doctor about
             allergies or health conditions. Questions:{" "}
             <a className="ink-link" href={`mailto:${site.supportEmail}`}>
