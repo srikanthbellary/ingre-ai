@@ -24,7 +24,9 @@ export function LabelScanner() {
   const [flags, setFlags] = useState<Record<string, Level>>({});
   const [verdict, setVerdict] = useState(false);
   const [beamOn, setBeamOn] = useState(false);
-  const [score, setScore] = useState(0);
+  // Starts at the settled count so the HTML before scripts run says what the
+  // animation ends on; play() resets it to 0 while the verdict is hidden.
+  const [score, setScore] = useState(flaggedCount);
 
   useEffect(() => {
     const root = rootRef.current;
