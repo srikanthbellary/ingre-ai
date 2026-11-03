@@ -80,11 +80,11 @@ export default function HomePage() {
             </p>
           </Rise>
           <Rise delay={200}>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5">
               <a href={appHref} className="btn btn-primary sm:self-start">
                 Get Ingre
               </a>
-              <p className="text-sm text-gr-400 sm:pl-2">
+              <p className="text-sm text-gr-400">
                 On Android now. iOS coming soon. A few scans free.
               </p>
             </div>
@@ -247,7 +247,7 @@ export default function HomePage() {
               regulatory notes, and open the source each one came from. Food,
               beauty, and personal care. On Android now, with iOS coming soon.
             </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
               <a
                 href={playStoreUrl}
                 target="_blank"
