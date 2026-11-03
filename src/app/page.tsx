@@ -80,7 +80,7 @@ export default function HomePage() {
             </p>
           </Rise>
           <Rise delay={200}>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-4">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-5">
               <a href={appHref} className="btn btn-primary sm:self-start">
                 Get Ingre
               </a>
