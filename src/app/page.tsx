@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { appHref, site } from "@/lib/site";
+import { appHref, playStoreUrl, site } from "@/lib/site";
 import { FigurePlate } from "@/components/FigurePlate";
 import { LabelScanner } from "@/components/LabelScanner";
 import { ApertureMark } from "@/components/Logo";
@@ -248,11 +248,42 @@ export default function HomePage() {
               beauty, and personal care, on Android and iOS.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <a href={appHref} className="btn btn-primary sm:self-start">
-                Get Ingre
+              <a
+                href={playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block self-start"
+              >
+                {/* Official badge artwork from Google's Partner Marketing Hub. */}
+                <Image
+                  src="/assets/get-it-on-google-play.svg"
+                  alt="Get it on Google Play"
+                  width={180}
+                  height={53}
+                  className="h-[53px] w-auto"
+                />
               </a>
               <p className="text-sm text-gr-400">
                 Android and iOS. A few scans free.
+              </p>
+            </div>
+            <div className="mt-8 hidden items-center gap-4 sm:flex">
+              <a
+                href={playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block rounded-xl bg-white p-2"
+              >
+                <Image
+                  src="/assets/ingre-play-qr.svg"
+                  alt="QR code for Ingre on Google Play"
+                  width={132}
+                  height={132}
+                  className="h-[132px] w-[132px]"
+                />
+              </a>
+              <p className="max-w-[12rem] text-sm leading-relaxed text-gr-300">
+                Scan to install on Android.
               </p>
             </div>
           </Rise>
