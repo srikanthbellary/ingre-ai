@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { appHref, site } from "@/lib/site";
+import { appHref, playStoreUrl, site } from "@/lib/site";
 import { FigurePlate } from "@/components/FigurePlate";
 import { LabelScanner } from "@/components/LabelScanner";
 import { ApertureMark } from "@/components/Logo";
@@ -85,7 +85,7 @@ export default function HomePage() {
                 Get Ingre
               </a>
               <p className="text-sm text-gr-400 sm:pl-2">
-                Android and iOS. A few scans free.
+                On Android now. iOS coming soon. A few scans free.
               </p>
             </div>
           </Rise>
@@ -94,7 +94,7 @@ export default function HomePage() {
         <Rise delay={80}>
           <FigurePlate
             kicker="Fig. 01 · Label scan"
-            note="Illustrative scan · Android and iOS"
+            note="Illustrative scan · Android now, iOS soon"
             tone="graphite"
           >
             <div className="p-4 sm:p-5">
@@ -155,7 +155,7 @@ export default function HomePage() {
           <Rise delay={80} className="mt-12">
             <FigurePlate
               kicker="Fig. 02 · Scan, parse, match, report"
-              note="Food and beauty labels · Android and iOS"
+              note="Food and beauty labels · Android now, iOS soon"
             >
               <ScanSchematic />
             </FigurePlate>
@@ -245,14 +245,45 @@ export default function HomePage() {
             <p className="mt-5 max-w-xl text-base leading-relaxed text-gr-300">
               Point the camera at the printed ingredient list, read the
               regulatory notes, and open the source each one came from. Food,
-              beauty, and personal care, on Android and iOS.
+              beauty, and personal care. On Android now, with iOS coming soon.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <a href={appHref} className="btn btn-primary sm:self-start">
-                Get Ingre
+              <a
+                href={playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block self-start"
+              >
+                {/* Official badge artwork from Google's Partner Marketing Hub. */}
+                <Image
+                  src="/assets/get-it-on-google-play.svg"
+                  alt="Get it on Google Play"
+                  width={180}
+                  height={53}
+                  className="h-[53px] w-auto"
+                />
               </a>
               <p className="text-sm text-gr-400">
-                Android and iOS. A few scans free.
+                On Android now. iOS coming soon. A few scans free.
+              </p>
+            </div>
+            <div className="mt-8 hidden items-center gap-4 sm:flex">
+              <a
+                href={playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block rounded-xl bg-white p-2"
+              >
+                <Image
+                  src="/assets/ingre-play-qr.svg"
+                  alt="QR code for Ingre on Google Play"
+                  width={132}
+                  height={132}
+                  className="h-[132px] w-[132px]"
+                />
+              </a>
+              <p className="max-w-[12rem] text-sm leading-relaxed text-gr-300">
+                Scan to install on Android.
               </p>
             </div>
           </Rise>

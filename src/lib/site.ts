@@ -15,6 +15,10 @@ export const site = {
 
 export const appHref = site.storeUrl ?? "/#get";
 
+/** Ingre's live Google Play listing. The QR code in public/assets encodes this exact URL. */
+export const playStoreUrl =
+  "https://play.google.com/store/apps/details?id=ai.ingre.app";
+
 /** A mailto link to the support address, with an optional subject line. */
 export function supportMailto(subject?: string) {
   const to = `mailto:${site.supportEmail}`;
