@@ -47,7 +47,7 @@ export function Footer() {
           </nav>
         </div>
         <div className="flex flex-col gap-2 border-t border-white/10 pt-6 text-xs text-gr-400 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Ingre. Android and iOS.</p>
+          <p>© {new Date().getFullYear()} Ingre. On Android now. iOS coming soon.</p>
           <p>A product of Sunrise Gen AI</p>
         </div>
       </div>
