@@ -35,8 +35,8 @@ export default function TermsPage() {
           <section>
             <h2 className="font-display text-2xl text-bone">The store listing</h2>
             <p className="mt-3">
-              Ingre is distributed for Android, with iOS coming soon. A few scans
-              are free to start. The terms of the app store you download from also apply.
+              Ingre is distributed for Android and iOS. A few scans are free to
+              start. The terms of the app store you download from also apply.
             </p>
           </section>
           <section>

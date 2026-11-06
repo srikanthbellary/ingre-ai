@@ -19,6 +19,9 @@ export const appHref = site.storeUrl ?? "/#get";
 export const playStoreUrl =
   "https://play.google.com/store/apps/details?id=ai.ingre.app";
 
+/** Ingre's live iPhone App Store listing. */
+export const appStoreUrl = "https://apps.apple.com/us/app/id6822124463";
+
 /** A mailto link to the support address, with an optional subject line. */
 export function supportMailto(subject?: string) {
   const to = `mailto:${site.supportEmail}`;

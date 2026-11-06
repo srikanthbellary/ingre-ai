@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { appHref, playStoreUrl, site } from "@/lib/site";
+import { appHref, appStoreUrl, playStoreUrl, site } from "@/lib/site";
 import { FigurePlate } from "@/components/FigurePlate";
 import { LabelScanner } from "@/components/LabelScanner";
 import { ApertureMark } from "@/components/Logo";
@@ -85,7 +85,7 @@ export default function HomePage() {
                 Get Ingre
               </a>
               <p className="text-sm text-gr-400">
-                On Android now. iOS coming soon. A few scans free.
+                Android and iOS. A few scans free.
               </p>
             </div>
           </Rise>
@@ -94,7 +94,7 @@ export default function HomePage() {
         <Rise delay={80}>
           <FigurePlate
             kicker="Fig. 01 · Label scan"
-            note="Illustrative scan · Android now, iOS soon"
+            note="Illustrative scan · Android and iOS"
             tone="graphite"
           >
             <div className="p-4 sm:p-5">
@@ -155,7 +155,7 @@ export default function HomePage() {
           <Rise delay={80} className="mt-12">
             <FigurePlate
               kicker="Fig. 02 · Scan, parse, match, report"
-              note="Food and beauty labels · Android now, iOS soon"
+              note="Food and beauty labels · Android and iOS"
             >
               <ScanSchematic />
             </FigurePlate>
@@ -245,7 +245,7 @@ export default function HomePage() {
             <p className="mt-5 max-w-xl text-base leading-relaxed text-gr-300">
               Point the camera at the printed ingredient list, read the
               regulatory notes, and open the source each one came from. Food,
-              beauty, and personal care. On Android now, with iOS coming soon.
+              beauty, and personal care. On Android and iOS.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
               <a
@@ -263,8 +263,23 @@ export default function HomePage() {
                   className="h-[53px] w-auto"
                 />
               </a>
+              <a
+                href={appStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block self-start"
+              >
+                {/* Official badge artwork from Apple's App Store marketing resources. */}
+                <Image
+                  src="/assets/download-on-the-app-store.svg"
+                  alt="Download on the App Store"
+                  width={159}
+                  height={53}
+                  className="h-[53px] w-auto"
+                />
+              </a>
               <p className="text-sm text-gr-400">
-                On Android now. iOS coming soon. A few scans free.
+                Android and iOS. A few scans free.
               </p>
             </div>
             <div className="mt-8 hidden items-center gap-4 sm:flex">
