@@ -88,6 +88,36 @@ export default function HomePage() {
                 Android and iOS. A few scans free.
               </p>
             </div>
+            <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
+              <a
+                href={playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block self-start"
+              >
+                <Image
+                  src="/assets/get-it-on-google-play.svg"
+                  alt="Get it on Google Play"
+                  width={180}
+                  height={53}
+                  className="h-[53px] w-auto"
+                />
+              </a>
+              <a
+                href={appStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block self-start"
+              >
+                <Image
+                  src="/assets/download-on-the-app-store.svg"
+                  alt="Download on the App Store"
+                  width={159}
+                  height={53}
+                  className="h-[53px] w-auto"
+                />
+              </a>
+            </div>
           </Rise>
         </div>
 
