@@ -23,7 +23,7 @@ Pushes to `main` run [`.github/workflows/deploy.yml`](.github/workflows/deploy.y
 
 The custom domain is `ingre.ai` (`public/CNAME`). DNS is pointed separately.
 
-The store URL is left unset in `src/lib/site.ts` (`storeUrl`) until a public listing URL is confirmed. The call to action falls back to the on-page `#get` section.
+Get Ingre uses `appHref`, which stays on `/#get` (`storeUrl` is unset). The `#get` section links the live listings: `playStoreUrl` for Android and `appStoreUrl` for iPhone (`https://apps.apple.com/us/app/id6822124463`).
 
 ## Legal, support, and open data
 
@@ -59,4 +59,4 @@ The mark is the aperture: viewfinder corners around a centred `i`. Assets live i
 
 Pattern reference for this pass: research-library topic **Web design resources for AI coding** (nav, footer, CTA, and section patterns only). This is our own material. No Apple product names, symbols, or brand clone.
 
-Display name stays **Ingre**. `storeUrl` stays unset until a public listing exists.
+Display name stays **Ingre**. `storeUrl` stays unset so Get Ingre opens the on-page download section.
